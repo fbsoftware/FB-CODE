@@ -24,8 +24,8 @@ html {
 body {
 	margin: 10px auto;
 	padding: 0;
-	font-size: 10pt;
-	width: 95%;
+	font-size: medium;
+	width: 96%;
 	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 }
@@ -45,7 +45,7 @@ color: $black-color;
 float: left;
 padding-right: 0.1em;
 line-height: 0.5em;
-font-size: 2em;
+font-size: xx-large;
 color: $success-color;
 }
 p.text-center	{
@@ -56,7 +56,6 @@ Pre {
 color: $black-color;
 line-height: 1.2em;
 margin: 0 0 5px 0;
-font-size:14pt;
 }
 
 
@@ -103,7 +102,7 @@ background-image: linear-gradient(top,$info-color ,darken($info-color,35%) );
 background-image: -moz-linear-gradient(top,$info-color ,darken($info-color,35%) );
 background-image: -webkit-linear-gradient(top,$info-color ,darken($info-color,35%) );
 background-image: -ms-linear-gradient(top,$info-color ,darken($info-color,35%) );
-font-size: 200%;
+font-size: xx-large;
 font-weight: bolder;
 color: $white-color;
 border: 1px solid $grey-color;
@@ -172,7 +171,7 @@ div.footer {
 	width: 100%;
 	padding: 0;
 	margin-bottom: 20px;
-	font-size: 21px;
+	font-size: large;
 	line-height: inherit;
 	color: $darkgrey-color;
 	border: 0;
@@ -186,7 +185,7 @@ div.footer {
   border-radius: 4px;
   padding: 6px;
   margin: 4px;
-  font-size: 14pt;
+  font-size: small;
 }
 .btn:focus {
   outline: 0;
@@ -284,7 +283,7 @@ div.footer {
 
 /*  CLASSI  */
 .little {
-font-size: 50%;
+font-size: xx-small;
 }
 
 .center {
@@ -304,7 +303,7 @@ margin-bottom: 0px !important;
 }
 h1.toolbar	{
 font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size:18pt;	
+font-size:x-large;	
 font-weight: bold;
 margin-top: 10px;
 }
