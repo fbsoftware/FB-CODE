@@ -14,7 +14,6 @@
 @import "totop";
 @import "grid";
 @import "colonne";
-@import "font-size";
 
 /*   ELEMENTI HTML  */
 html {
@@ -260,7 +259,7 @@ div.footer {
 	border: 1px solid;
 }
 .table-striped>tbody>tr:nth-of-type(odd) {
-	background-color: $success-color;
+	background-color: $lightgrey-color;
 }
 
 .row-center {

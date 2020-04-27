@@ -690,27 +690,6 @@ ul.liv2 > li > a {
 .fb-col6 {
   grid-template-columns: 16.6666666666666666% 16.6666666666666666% 16.6666666666666666% 16.6666666666666666% 16.6666666666666666%							 16.6666666666666666%; }
 
-/*       FONT-SIZE           */
-.fb-fs1 {
-  font-size: 1em !important;
-  /* 16 px */ }
-
-.fb-fs2 {
-  font-size: 2em !important;
-  /* 32 px */ }
-
-.fb-fs3 {
-  font-size: 3em !important;
-  /* 48 px */ }
-
-.fb-fs4 {
-  font-size: 4em !important;
-  /* 64 px */ }
-
-.fb-fs5 {
-  font-size: 5em !important;
-  /* 80 px */ }
-
 /*   ELEMENTI HTML  */
 html {
   min-height: 100%; }
@@ -926,7 +905,7 @@ div.footer {
   border: 1px solid; }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #5cb85c; }
+  background-color: #c8c8c8; }
 
 .row-center {
   margin: 0 auto; }
