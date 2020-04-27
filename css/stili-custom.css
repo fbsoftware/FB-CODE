@@ -762,10 +762,10 @@ header {
   width: 100%;
   margin: 0;
   height: 65px;
-  background-image: linear-gradient(top, #5bc0de, #175b70);
-  background-image: -moz-linear-gradient(top, #5bc0de, #175b70);
-  background-image: -webkit-linear-gradient(top, #5bc0de, #175b70);
-  background-image: -ms-linear-gradient(top, #5bc0de, #175b70);
+  background-image: linear-gradient(top, #5bc0de, #2390b0);
+  background-image: -moz-linear-gradient(top, #5bc0de, #2390b0);
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2390b0);
+  background-image: -ms-linear-gradient(top, #5bc0de, #2390b0);
   font-size: xx-large;
   font-weight: bolder;
   color: #FFFFFF;
