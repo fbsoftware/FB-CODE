@@ -7,10 +7,7 @@
 	position: sticky; 
 	top: 0; 
 	}
-thead	{
-background-color:$grey-color;	
-	
-}
+
 table  { 
 	border-collapse: collapse; 
 	width: 100%; 
@@ -21,7 +18,7 @@ th, td {
 	}
 	
 th     { 
-	background:$lightgrey-color; 
+	background:$grey-color; 
 	}
 
 td.center {
