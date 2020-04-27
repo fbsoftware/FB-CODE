@@ -1,8 +1,8 @@
 /* colori */
 /* ----------------- */
 /*  grigio regular  */
-/*  grigio chiaro  */
-/*  grigio scuro  */
+/*  grigio chiaro   */
+/*  grigio scuro    */
 /*     C O L O R I           */
 .blue {
   color: #0000FF; }
@@ -78,7 +78,7 @@ div.basic {
   color: #000000 !important; }
 
 .fb-bgcolor-basic {
-  background-color: #aeaeae !important;
+  background-color: #f5f5f5 !important;
   color: #000000 !important; }
 
 /* colore template */
@@ -92,7 +92,7 @@ div.basic {
   color: #FFFFFF !important; }
 
 .fb-color-basic {
-  color: #aeaeae !important; }
+  color: #f5f5f5 !important; }
 
 /*  form  */
 /*  MIXINS  */
@@ -104,7 +104,7 @@ form {
   margin-block-end: 0em !important;
   height: 32px;
   padding: 6px 12px;
-  color: #626262;
+  color: #444444;
   border-radius: 0; }
 
 form login {
@@ -149,7 +149,7 @@ label.wide {
 
 input {
   color: #0000FF;
-  border: 1px solid #888888; }
+  border: 1px solid #cccccc; }
 
 input.req {
   color: #0000FF;
@@ -174,8 +174,8 @@ input.nobord {
   padding: 0 3px; }
 
 button {
-  background: #888888;
-  border: 1px solid #888888; }
+  background: #cccccc;
+  border: 1px solid #cccccc; }
 
 /* LINK */
 a {
@@ -195,15 +195,15 @@ a:hover {
 
 /*   FIELDSET   */
 fieldset {
-  background: #aeaeae;
-  border: 1px solid #888888;
+  background: #f5f5f5;
+  border: 1px solid #cccccc;
   border-radius: 4px;
   padding: 5px;
   margin-bottom: 5px; }
 
 fieldset.toolbar {
-  background: #aeaeae;
-  border: 1px solid #888888;
+  background: #f5f5f5;
+  border: 1px solid #cccccc;
   border-radius: 4px;
   padding: 5px;
   margin-top: 5px;
@@ -216,7 +216,7 @@ fieldset.input {
   border-radius: 0; }
 
 fieldset.tabella {
-  border: 1px solid #888888;
+  border: 1px solid #cccccc;
   margin: 0;
   padding: 10px;
   border-radius: 7px; }
@@ -252,13 +252,13 @@ th, td {
   padding: 8px 16px; }
 
 th {
-  background: #aeaeae; }
+  background: #f5f5f5; }
 
 td.center {
   text-align: center; }
 
 tr td:last-child {
-  border-right: 1px solid #888888; }
+  border-right: 1px solid #cccccc; }
 
 /*  IMG  */
 img {
@@ -288,7 +288,7 @@ img.login {
 
 /* Stili per sovrascrivere e modificare il componente Accordion/collapse di Bootstrap */
 .panel {
-  border: 1px solid #888888;
+  border: 1px solid #cccccc;
   border-radius: 0; }
 
 .panel-heading {
@@ -307,13 +307,13 @@ img.login {
 
 .panel-default > .panel-heading {
   background-color: #5cb85c;
-  border-color: #888888; }
+  border-color: #cccccc; }
 
 .panel-default > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #888888; }
+  border-top-color: #cccccc; }
 
 .panel-default > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #888888; }
+  border-bottom-color: #cccccc; }
 
 /* Pannelli dell'accordion basati sui panel di Bootstrap */
 .panel-carousel {
@@ -321,7 +321,7 @@ img.login {
   margin-top: 15px;
   margin-bottom: 20px;
   background-color: #FFFFFF;
-  border: 1px solid #888888;
+  border: 1px solid #cccccc;
   border-radius: 0;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
@@ -332,13 +332,13 @@ img.login {
   font-size: medium;
   font-weight: 500;
   color: #FFFFFF;
-  border-bottom: 1px solid #888888; }
+  border-bottom: 1px solid #cccccc; }
 
 .panel-carousel-footer {
   margin: 15px -15px -15px;
   padding: 10px 15px;
-  background-color: #aeaeae;
-  border-top: 1px solid #888888; }
+  background-color: #f5f5f5;
+  border-top: 1px solid #cccccc; }
 
 .panel-carousel-control {
   font-size: medium; }
@@ -480,13 +480,13 @@ a[data-toggle="tooltip"] {
   background: url(images/logo/logo.png) center bottom no-repeat; }
 
 .navbar-default {
-  background-color: #aeaeae; }
+  background-color: #f5f5f5; }
 
 .navbar-default .navbar-nav > li > a {
   font-size: medium;
   font-weight: bold;
   text-transform: uppercase;
-  color: #626262;
+  color: #444444;
   border-bottom: 1px solid #428bca; }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -525,12 +525,12 @@ a[data-toggle="tooltip"] {
 .navbar-default .navbar-nav > .open > a .caret,
 .navbar-default .navbar-nav > .open > a:hover .caret,
 .navbar-default .navbar-nav > .open > a:focus .caret {
-  border-top-color: #626262;
-  border-bottom-color: #626262; }
+  border-top-color: #444444;
+  border-bottom-color: #444444; }
 
 .navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: #626262;
-  border-bottom-color: #626262; }
+  border-top-color: #444444;
+  border-bottom-color: #444444; }
 
 /*   gruppo   */
 @media screen and (min-width: 768px) {
@@ -546,7 +546,7 @@ ul.nav2 {
   float: left;
   margin: 0;
   padding: 0;
-  background: #aeaeae;
+  background: #f5f5f5;
   list-style: none;
   font-size: 1em Verdana;
   font-weight: bold;
@@ -580,7 +580,7 @@ ul.nav2 a:visited {
 ul.nav2 a:hover,
 ul.nav2 a:focus,
 ul.nav2 a:active {
-  background-color: #aeaeae;
+  background-color: #f5f5f5;
   color: #d9534f;
   text-decoration: none; }
 
@@ -591,7 +591,7 @@ ul.nav2 li:hover ul.liv2 {
   width: 13%;
   padding: 0;
   margin: 0;
-  background: #aeaeae; }
+  background: #f5f5f5; }
 
 /*       UL-LIV2           */
 ul.liv2 {
@@ -601,7 +601,7 @@ ul.liv2 {
   width: 13%;
   padding: 0;
   margin: 0;
-  background: #aeaeae; }
+  background: #f5f5f5; }
 
 ul.liv2 li {
   list-style: none;
@@ -613,7 +613,7 @@ ul.liv2 > li > a {
   color: #FFFFFF;
   border-right: 0px;
   font-weight: bold;
-  background: #626262; }
+  background: #444444; }
 
 /* totop */
 .fb-totop {
@@ -623,7 +623,7 @@ ul.liv2 > li > a {
   height: 55px;
   position: fixed;
   display: block;
-  background-color: #888888;
+  background-color: #cccccc;
   padding: 10px 0 0 13px;
   border: 1px solid #428bca;
   border-radius: 50%; }
@@ -720,7 +720,7 @@ p {
   color: #5cb85c; }
 
 p.text-center {
-  background: #888888;
+  background: #cccccc;
   opacity: .75; }
 
 Pre {
@@ -735,7 +735,7 @@ hr.slim {
   /* HR senza margini verticali  */
   margin-bottom: 0px;
   margin-top: 0px;
-  background-color: #888888;
+  background-color: #cccccc;
   height: 1px; }
 
 h1 {
@@ -769,7 +769,7 @@ header {
   font-size: xx-large;
   font-weight: bolder;
   color: #FFFFFF;
-  border: 1px solid #888888;
+  border: 1px solid #cccccc;
   border-radius: 7px 7px 0 0; }
 
 nav {
@@ -777,9 +777,9 @@ nav {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #aeaeae;
-  border-left: 1px solid #888888;
-  border-right: 1px solid #888888; }
+  background-color: #f5f5f5;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc; }
 
 article {
   float: left;
@@ -803,9 +803,9 @@ aside.right {
 div.widget {
   float: left;
   margin: 20px;
-  border: 2px solid #888888;
+  border: 2px solid #cccccc;
   border-radius: 5px;
-  background: #888888;
+  background: #cccccc;
   width: 100%; }
 
 div.widget:hover {
@@ -813,7 +813,7 @@ div.widget:hover {
   border-bottom-right-radius: 70% 25px;
   transition-property: border-bottom-right-radius;
   transition-duration: .5s;
-  background: #888888; }
+  background: #cccccc; }
 
 div.primary {
   background: linear-gradient(#337ab7, rgba(191, 225, 252, 0.45)); }
@@ -823,20 +823,20 @@ div.fb-container-sleek {
   margin: 0px; }
 
 div.footer {
-  background: #888888;
+  background: #cccccc;
   display: block;
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
   font-size: large;
   line-height: inherit;
-  color: #626262;
+  color: #444444;
   border: 0;
-  border-bottom: 1px solid #888888; }
+  border-bottom: 1px solid #cccccc; }
 
 /* Stili per sovrascrivere e modificare i bottoni standard di Bootstrap */
 .btn {
-  border: 1px solid #888888;
+  border: 1px solid #cccccc;
   border-radius: 4px;
   padding: 6px;
   margin: 4px;
@@ -857,7 +857,7 @@ div.footer {
 
 .dropdown-menu > li > a {
   padding: 7px 10px;
-  border-bottom: 1px solid #888888; }
+  border-bottom: 1px solid #cccccc; }
 
 .glyphicon-tondo {
   top: 8px;
@@ -905,7 +905,7 @@ div.footer {
   border: 1px solid; }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #aeaeae; }
+  background-color: #f5f5f5; }
 
 .row-center {
   margin: 0 auto; }
