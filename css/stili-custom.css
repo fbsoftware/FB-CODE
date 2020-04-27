@@ -244,6 +244,9 @@ legend {
   position: sticky;
   top: 0; }
 
+thead {
+  background-color: #cccccc; }
+
 table {
   border-collapse: collapse;
   width: 100%; }
