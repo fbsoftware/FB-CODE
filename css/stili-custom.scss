@@ -177,6 +177,9 @@ div.footer {
 	border-bottom: 1px solid $grey-color;
 }
 
+div.justify{
+	text-align:justify;
+}
 /* Stili per sovrascrivere e modificare i bottoni standard di Bootstrap */
 
 .btn {
@@ -216,9 +219,6 @@ div.footer {
 	text-align:center;
 }
 
-.justify{
-	text-align:justify;
-}
 /*       RAGGIO           */
 
 .fb-rad0 {
