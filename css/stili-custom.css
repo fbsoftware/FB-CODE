@@ -867,6 +867,9 @@ div.footer {
   display: block !important;
   text-align: center; }
 
+.justify {
+  text-align: justify; }
+
 /*       RAGGIO           */
 .fb-rad0 {
   border-radius: 0px; }
