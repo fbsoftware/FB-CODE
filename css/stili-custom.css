@@ -181,6 +181,9 @@ button {
 a {
   text-decoration: none !important; }
 
+a[data-toggle="tooltip"] {
+  color: #000; }
+
 a:link {
   color: #5cb85c; }
 
