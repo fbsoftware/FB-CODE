@@ -181,13 +181,11 @@ button {
 a {
   text-decoration: none !important; }
 
-a[data-toggle="tooltip"],
-a:link[data-toggle="tooltip"] {
-  cursor: none;
-  color: #000; }
+a[data-toggle="tooltip"] {
+  cursor: none; }
 
 a:link {
-  color: #5cb85c; }
+  color: #000000; }
 
 a:active {
   color: #f0ad4e; }
