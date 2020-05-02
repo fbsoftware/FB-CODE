@@ -3,7 +3,8 @@ a {
 text-decoration: none  !important
 }
 
-a[data-toggle="tooltip"]	{
+a[data-toggle="tooltip"] {
+	cursor: none;
 	color:#000;
 }
 

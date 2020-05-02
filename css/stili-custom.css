@@ -182,6 +182,7 @@ a {
   text-decoration: none !important; }
 
 a[data-toggle="tooltip"] {
+  cursor: none;
   color: #000; }
 
 a:link {
@@ -464,9 +465,6 @@ img.login {
   margin-top: -5px;
   border-width: 0 5px 5px;
   border-bottom-color: #000000; }
-
-a[data-toggle="tooltip"] {
-  cursor: none; }
 
 /*   NAVBAR   */
 .navbar {
