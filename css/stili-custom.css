@@ -635,42 +635,83 @@ ul.liv2 > li > a {
   right: 20px;
   display: none; }
 
-/* --------------------------------------------- */
-/*  GRIGLIE                                      */
-/* --------------------------------------------- */
-.grid1 {
-  display: grid;
-  grid-template-rows: flex;
-  grid-template-areas: "promo1"; }
+/*@import "grid";   sostituito da flex*/
+/*   F L E X   container   */
+.f-flex {
+  display: flex; }
 
-.grid2 {
-  display: grid;
-  grid-template-rows: flex;
-  grid-template-areas: "promo1 promo2"; }
+.f-flex::before {
+  clear: both; }
 
-.grid3 {
-  display: grid;
-  grid-template-rows: flex;
-  grid-template-areas: "promo1 promo2 promo3"; }
+.f-item {
+  display: flex; }
 
-.grid4 {
-  display: grid;
-  grid-template-rows: flex;
-  grid-template-areas: "promo1 promo2 promo3 promo4"; }
+.fd-row-rev,
+.fd-row {
+  flex-direction: row; }
 
-.grid5 {
-  display: grid;
-  grid-template-rows: flex;
-  grid-template-areas: "promo1 promo2 promo3 promo4 promo5"; }
+.fd-column-rev,
+.fd-column {
+  flex-direction: column; }
 
-.grid6 {
-  display: grid;
-  grid-template-rows: flex;
-  grid-template-areas: "promo1 promo2 promo3 promo4 promo5 promo6"; }
+.jc-center {
+  justify-content: center; }
 
-.gutter {
-  gap: 0px; }
+.jc-end {
+  justify-content: flex-end; }
 
+.jc-start {
+  justify-content: flex-start; }
+
+.jc-between {
+  justify-content: space-between; }
+
+.jc-around {
+  justify-content: space-around; }
+
+.jc-evenly {
+  justify-content: space-evenly; }
+
+.ai-center {
+  align-items: center; }
+
+.ai-end {
+  align-items: flex-end; }
+
+.ai-start {
+  align-items: flex-start; }
+
+.ai-stretch {
+  align-items: stretch; }
+
+.ai-baseline {
+  align-items: baseline; }
+
+/*   F L E X   item   */
+.f-ord1 {
+  order: 1; }
+
+.f-ord2 {
+  order: 2; }
+
+.f-ord3 {
+  order: 3; }
+
+.f-ord4 {
+  order: 4; }
+
+.f-dim1 {
+  flex: 1; }
+
+/* dimensione singola */
+.f-dim2 {
+  flex: 2; }
+
+/* dimensione doppia  */
+.f-dim3 {
+  flex: 3; }
+
+/* dimensione tripla  */
 /* --------------------------------------------- */
 .fb-col1 {
   grid-template-columns: 100%; }
@@ -701,6 +742,9 @@ body {
   width: 96%;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility; }
+
+body.admin {
+  height: 100vh; }
 
 /* Stile per modificare e sovrascrivere i blockquote di Bootstrap */
 blockquote {
