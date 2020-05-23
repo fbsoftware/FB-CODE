@@ -740,7 +740,7 @@ body {
   padding: 0;
   font-size: medium;
   width: 96%;
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Muli', sans-serif;
   text-rendering: optimizeLegibility; }
 
 body.admin {
