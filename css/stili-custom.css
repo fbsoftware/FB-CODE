@@ -738,6 +738,7 @@ ul.liv2 > li > a {
   margin: 0; }
 
 h1, h2, h3 {
+  margin: 0 !important;
   padding: 10px; }
 
 h1 {
@@ -772,6 +773,7 @@ blockquote {
   border-left: 5px solid #428bca; }
 
 p {
+  margin: 0 !important;
   padding: 0.5em 1em;
   text-align: left;
   color: #000000;
