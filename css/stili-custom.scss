@@ -21,7 +21,7 @@
 			font-family: 'Muli', sans-serif;
 			padding:0;
 			margin:0;}
-h1,h2,h3	{
+h1,h2,h3	{margin:0 !important;
 			padding:10px;}
 			
 h1	 {	font-size: 40px;
@@ -55,7 +55,7 @@ blockquote {
  border-left: 5px solid $primary-color;
 }
 
-p {
+p {margin:0 !important;
 padding: 0.5em 1em;
 text-align: left;
 color: $black-color;
