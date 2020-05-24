@@ -732,12 +732,33 @@ ul.liv2 > li > a {
   grid-template-columns: 16.6666666666666666% 16.6666666666666666% 16.6666666666666666% 16.6666666666666666% 16.6666666666666666%							 16.6666666666666666%; }
 
 /*   ELEMENTI HTML  */
+* {
+  font-family: 'Muli', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3 {
+  padding: 10px; }
+
+h1 {
+  font-size: 40px;
+  font-weight: 700; }
+
+h2 {
+  font-size: 30px;
+  font-weight: 600; }
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: underline; }
+
 html {
   min-height: 100%; }
 
 body {
   margin: 10px auto;
-  padding: 0;
   font-size: medium;
   width: 96%;
   font-family: 'Muli', sans-serif;
@@ -751,10 +772,11 @@ blockquote {
   border-left: 5px solid #428bca; }
 
 p {
-  margin: 0;
   padding: 0.5em 1em;
   text-align: left;
-  color: #000000; }
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400; }
 
 .p:first-letter {
   float: left;
@@ -762,10 +784,6 @@ p {
   line-height: 0.5em;
   font-size: xx-large;
   color: #5cb85c; }
-
-p.text-center {
-  background: #cccccc;
-  opacity: .75; }
 
 Pre {
   color: #000000;
@@ -781,12 +799,6 @@ hr.slim {
   margin-top: 0px;
   background-color: #cccccc;
   height: 1px; }
-
-h1 {
-  margin-left: 10px; }
-
-h4 {
-  text-align: center; }
 
 span.right {
   float: right; }
