@@ -17,13 +17,30 @@
 @import "colonne";
 
 /*   ELEMENTI HTML  */
+*	     {
+			font-family: 'Muli', sans-serif;
+			padding:0;
+			margin:0;}
+h1,h2,h3	{
+			padding:10px;}
+			
+h1	 {	font-size: 40px;
+		font-weight:700;}
+		
+h2	 {	font-size: 30px;
+		font-weight:600;}
+		
+h3	 {	font-size: 20px;
+		font-weight:500;
+		font-style:italic;
+		text-decoration:underline;}
+		
 html {
 	
   min-height: 100%;
 }
 body {
 	margin: 10px auto;
-	padding: 0;
 	font-size: medium;
 	width: 96%;
 	font-family: 'Muli', sans-serif;
@@ -39,10 +56,11 @@ blockquote {
 }
 
 p {
-margin: 0;
 padding: 0.5em 1em;
 text-align: left;
 color: $black-color;
+font-size: 16px;
+font-weight:400;
 }
 
 .p:first-letter {
@@ -52,10 +70,7 @@ line-height: 0.5em;
 font-size: xx-large;
 color: $success-color;
 }
-p.text-center	{
-	background: $grey-color;
-	opacity: .75;
-} 
+
 Pre {
 color: $black-color;
 line-height: 1.2em;
@@ -74,17 +89,10 @@ hr.slim   { 		 /* HR senza margini verticali  */
  height: 1px;
 }
 
-h1	{
-		margin-left:10px;
-}
-
-h4	{
-	text-align:center;
-}
-
 span.right {
 float: right;
 }
+
 iframe {
 border: 0;
 }
