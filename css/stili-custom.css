@@ -739,7 +739,7 @@ ul.liv2 > li > a {
 
 h1, h2, h3 {
   margin: 0 !important;
-  padding: 10px; }
+  padding: 1em; }
 
 h1 {
   font-size: 40px;
@@ -774,7 +774,7 @@ blockquote {
 
 p {
   margin: 0 !important;
-  padding: 0.5em 1em;
+  padding: 1em;
   text-align: left;
   color: #000000;
   font-size: 16px;
