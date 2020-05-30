@@ -22,8 +22,8 @@
 			padding:0;
 			margin:0;}
 			
-h1,h2,h3	{margin: 0 !important;
-			padding: 1em;}
+h1,h2,h3,p	{margin: 0 !important;
+			padding: 0.5em;}
 			
 h1	 {	font-size: 40px;
 		font-weight:700;}
@@ -55,7 +55,6 @@ blockquote {
 }
 
 p {margin:0 !important;
-padding: 1em;
 text-align: left;
 color: $black-color;
 font-size: 16px;
