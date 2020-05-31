@@ -1012,8 +1012,14 @@ h1.toolbar {
   padding: 10px 0 0 0;
   border-top: 1px solid #FFFFFF; }
 
+#corpo {
+  border: 1px solid #ccc; }
+
 #footer {
-  /*	height: 200px;  */ }
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0 0 7px 7px; }
 
 #wrapp {
   height: 0;
