@@ -809,10 +809,17 @@ iframe {
 
 footer {
   background-color: #FFFFFF;
-  padding: 10px; }
+  padding: 10px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0 0 7px 7px; }
 
 footer a, footer a:hover {
   color: #5cb85c; }
+
+section#corpo {
+  border: 1px solid #ccc; }
 
 header {
   float: left;
@@ -1008,19 +1015,6 @@ h1.toolbar {
   margin-top: 10px; }
 
 /*   ID   */
-#footer-copy {
-  padding: 10px 0 0 0;
-  border-top: 1px solid #FFFFFF; }
-
-#corpo {
-  border: 1px solid #ccc; }
-
-#footer {
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  border-radius: 0 0 7px 7px; }
-
 #wrapp {
   height: 0;
   margin-bottom: 16px;
