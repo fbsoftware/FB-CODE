@@ -1007,15 +1007,16 @@ ul, ol {
   /*  alert senza margini  */
   margin-bottom: 0px !important; }
 
+/*  T O O L B A R  */
 .toolbar-color {
   background: #5bc0de;
   margin: 0; }
 
 h1.toolbar {
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: x-large;
   font-weight: bold;
-  margin-top: 10px; }
+  margin-top: 10px;
+  color: #FFFFFF; }
 
 /*   ID   */
 #wrapp {
