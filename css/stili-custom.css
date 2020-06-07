@@ -742,11 +742,11 @@ h1, h2, h3, p {
   padding: 0.5em; }
 
 h1 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700; }
 
 h2 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600; }
 
 h3 {
@@ -760,9 +760,8 @@ html {
 
 body {
   margin: 10px auto;
-  font-size: medium;
+  /* font-size: medium;*/
   width: 96%;
-  font-family: 'Muli', sans-serif;
   text-rendering: optimizeLegibility; }
 
 body.admin {
@@ -776,7 +775,7 @@ p {
   margin: 0 !important;
   text-align: left;
   color: #000000;
-  font-size: 16px;
+  /* font-size: 16px;*/
   font-weight: 400; }
 
 .p:first-letter {

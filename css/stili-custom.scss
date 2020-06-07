@@ -25,10 +25,10 @@
 h1,h2,h3,p	{margin: 0 !important;
 			padding: 0.5em;}
 			
-h1	 {	font-size: 40px;
+h1	 {	font-size: 32px;
 		font-weight:700;}
 		
-h2	 {	font-size: 30px;
+h2	 {	font-size: 24px;
 		font-weight:600;}
 		
 h3	 {	font-size: 20px;
@@ -40,9 +40,8 @@ html { min-height: 100%; }
 
 body {
 	margin: 10px auto;
-	font-size: medium;
+	/* font-size: medium;*/
 	width: 96%;
-	font-family: 'Muli', sans-serif;
 	text-rendering: optimizeLegibility;
 }
 
@@ -54,10 +53,11 @@ blockquote {
  border-left: 5px solid $primary-color;
 }
 
-p {margin:0 !important;
+p {
+	margin:0 !important;
 text-align: left;
 color: $black-color;
-font-size: 16px;
+/* font-size: 16px;*/
 font-weight:400;
 }
 
