@@ -1,6 +1,8 @@
 /*   F L E X   container   */
 
-.f-flex 			{ display: flex;}
+.f-flex 			{ display: flex;
+						gap:12px;}
+						
 .f-flex::before 	{clear:both;}
 
 .f-item 		{ display: flex; }
