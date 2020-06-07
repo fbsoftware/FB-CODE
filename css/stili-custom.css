@@ -638,7 +638,8 @@ ul.liv2 > li > a {
 /*@import "grid";   sostituito da flex*/
 /*   F L E X   container   */
 .f-flex {
-  display: flex; }
+  display: flex;
+  gap: 12px; }
 
 .f-flex::before {
   clear: both; }
