@@ -635,7 +635,7 @@ ul.liv2 > li > a {
   right: 20px;
   display: none; }
 
-/*@import "grid";   sostituito da flex*/
+/*@import "grid";   ------sostituito da flex*/
 /*   F L E X   container   */
 .f-flex {
   display: flex;
@@ -721,7 +721,7 @@ ul.liv2 > li > a {
   grid-template-columns: 50% 50%; }
 
 .fb-col3 {
-  grid-template-columns: 33.3333333333333333% 33.3333333333333333%  33.3333333333333333%; }
+  grid-template-columns: 33.3333333333333333%  33.3333333333333333%  33.3333333333333333%; }
 
 .fb-col4 {
   grid-template-columns: 25% 25% 25% 25%; }
@@ -730,7 +730,7 @@ ul.liv2 > li > a {
   grid-template-columns: 20% 20% 20% 20% 20%; }
 
 .fb-col6 {
-  grid-template-columns: 16.6666666666666666% 16.6666666666666666% 16.6666666666666666% 16.6666666666666666% 16.6666666666666666%							 16.6666666666666666%; }
+  grid-template-columns: 16.6666666666666666%  16.6666666666666666% 16.6666666666666666% 16.6666666666666666% 16.6666666666666666%							 16.6666666666666666%; }
 
 /*   ELEMENTI HTML  */
 * {
@@ -1000,7 +1000,7 @@ ul, ol {
 
 .marchio {
   height: 50px;
-  margin: 7.5px;
+  margin: -5px;
   float: left; }
 
 .alert {
