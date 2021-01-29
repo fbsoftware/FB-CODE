@@ -272,6 +272,9 @@ img {
 .img-utente {
   height: 50px; }
 
+.fb-relative {
+  position: relative; }
+
 img.centro {
   position: absolute;
   margin: auto;
