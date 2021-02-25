@@ -782,10 +782,10 @@ blockquote {
   border-left: 5px solid #428bca; }
 
 p {
-  margin: 0 !important;
+  margin: 1.25em 0 !important;
   text-align: left;
   color: #000000;
-  /* font-size: 16px;*/
+  font-size: 16px;
   font-weight: 400; }
 
 .p:first-letter {
