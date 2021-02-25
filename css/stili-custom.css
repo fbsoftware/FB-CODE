@@ -783,10 +783,16 @@ blockquote {
 
 p {
   margin: 1.25em 0 !important;
-  text-align: left;
+  text-align: justify;
   color: #000000;
-  font-size: 16px;
-  font-weight: 400; }
+  font-size: 1em;
+  font-weight: 400;
+  max-width: 65ch;
+  line-height: 1.5em; }
+
+/* testo indentato */
+p + p {
+  text-indent: 1em; }
 
 .p:first-letter {
   float: left;
