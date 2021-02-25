@@ -782,12 +782,12 @@ blockquote {
   border-left: 5px solid #428bca; }
 
 p {
-  margin: 1.25em 0 !important;
+  margin-bottom: 1.25em 0 !important;
   text-align: justify;
   color: #000000;
   font-size: 1em;
   font-weight: 400;
-  max-width: 65ch;
+  max-width: 70ch;
   line-height: 1.5em; }
 
 /* testo indentato */
