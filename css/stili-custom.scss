@@ -19,7 +19,7 @@
 /*   ELEMENTI HTML  */
 *	     {
 			font-family: 'Muli', sans-serif;
-			font-size:16px;
+			font-size:16px !important;
 			padding:0;
 			margin:0;}
 			
@@ -54,17 +54,16 @@ blockquote {
 }
 
 p {
-margin-bottom: 1.25em !important;
 text-align: justify;
 color: $black-color;
 font-size: 1em;
 font-weight:400;
 max-width:70ch;
-line-height: 1.5em;
+line-height: 1.25em;
 }
 /* testo indentato */
 p + p {
-text-indent: 1em;
+text-indent: 1.5em;
 }
 .p:first-letter {
 float: left;
