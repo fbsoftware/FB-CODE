@@ -744,6 +744,7 @@ ul.liv2 > li > a {
 /*   ELEMENTI HTML  */
 * {
   font-family: 'Muli', sans-serif;
+  font-size: 16px;
   padding: 0;
   margin: 0; }
 
@@ -752,15 +753,15 @@ h1, h2, h3, p {
   padding: 0.5em; }
 
 h1 {
-  font-size: 32px;
+  font-size: 2em;
   font-weight: 700; }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 600; }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 500;
   font-style: italic;
   text-decoration: underline; }
@@ -769,8 +770,7 @@ html {
   min-height: 100%; }
 
 body {
-  margin: 10px auto;
-  /* font-size: medium;*/
+  margin: 1em auto;
   width: 96%;
   text-rendering: optimizeLegibility; }
 
@@ -797,14 +797,14 @@ p + p {
 .p:first-letter {
   float: left;
   padding-right: 0.1em;
-  line-height: 0.5em;
-  font-size: xx-large;
+  line-height: 1em;
+  font-size: 3.5em;
   color: #5cb85c; }
 
 Pre {
   color: #000000;
   line-height: 1.2em;
-  margin: 0 0 5px 0; }
+  margin: 0 0 0.3125em 0; }
 
 hr {
   color: #000000; }
@@ -814,7 +814,7 @@ hr.slim {
   margin-bottom: 0px;
   margin-top: 0px;
   background-color: #cccccc;
-  height: 1px; }
+  height: 0.0625em; }
 
 span.right {
   float: right; }
