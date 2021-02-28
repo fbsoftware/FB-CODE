@@ -333,16 +333,16 @@ margin-bottom: 0px !important;
 	margin: 0;
 }
 h1.toolbar	{
-font-size:x-large;	
-font-weight: bold;
-margin-top: 10px;
-color:$white-color;
+	font-size:x-large;	
+	font-weight: bold;
+	margin-top: 10px;
+	color:$white-color;
 }
 
 /*   ID   */
 
 #wrapp {
-	height: 0;
+	height: 100%;
 	margin: 1em;
 	overflow: hidden;
 /*	padding-bottom: 67.5%;
@@ -359,7 +359,7 @@ color:$white-color;
 
 /* bottone go-to-top */
 
-	#tornasu{
+#tornasu{
 	position: fixed;
 	bottom: 0px;
 	right: 0px;
