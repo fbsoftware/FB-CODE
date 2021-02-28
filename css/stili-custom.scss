@@ -18,7 +18,6 @@
 
 /*   ELEMENTI HTML  */
 *	     {
-			font-family: 'Muli', sans-serif;
 			padding:0;
 			margin:0;}
 			
@@ -39,6 +38,7 @@ h3	 {	font-size: 1.25em !important;
 html { min-height: 100%; }
 
 body {
+	font-family: 'Muli', sans-serif;
 	font-size:16px !important ;
 	margin: 1em auto;
 	width: 96%;

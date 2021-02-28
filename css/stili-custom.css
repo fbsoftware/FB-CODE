@@ -743,7 +743,6 @@ ul.liv2 > li > a {
 
 /*   ELEMENTI HTML  */
 * {
-  font-family: 'Muli', sans-serif;
   padding: 0;
   margin: 0; }
 
@@ -769,6 +768,7 @@ html {
   min-height: 100%; }
 
 body {
+  font-family: 'Muli', sans-serif;
   font-size: 16px !important;
   margin: 1em auto;
   width: 96%;
