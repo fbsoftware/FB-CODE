@@ -291,6 +291,9 @@ img.center {
 img.login {
   margin-right: 40px; }
 
+.img-h300 {
+  height: 300px; }
+
 /* Stili per sovrascrivere e modificare il componente Accordion/collapse di Bootstrap */
 .panel {
   border: 1px solid #cccccc;
