@@ -1036,13 +1036,9 @@ h1.toolbar {
   height: 100%;
   margin: 1em;
   overflow: hidden;
-  /*	padding-bottom: 67.5%;
-  	padding-top: 25px;*/
   position: relative; }
 
 #player {
-  /*height: 100%;
-  width: 100%; */
   left: 0;
   position: absolute;
   top: 0; }
