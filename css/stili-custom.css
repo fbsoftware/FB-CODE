@@ -3,6 +3,7 @@
 /*  grigio regular  */
 /*  grigio chiaro   */
 /*  grigio scuro    */
+/* ----------------- */
 /*     C O L O R I           */
 .blue {
   color: #0000FF; }
@@ -104,7 +105,7 @@ form {
   margin-block-end: 0em !important;
   height: 32px;
   padding: 6px 12px;
-  color: #444444;
+  color: #333333;
   border-radius: 0; }
 
 form login {
@@ -497,7 +498,7 @@ img.img-fit {
   font-size: medium;
   font-weight: bold;
   text-transform: uppercase;
-  color: #444444;
+  color: #333333;
   border-bottom: 1px solid #428bca; }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -536,12 +537,12 @@ img.img-fit {
 .navbar-default .navbar-nav > .open > a .caret,
 .navbar-default .navbar-nav > .open > a:hover .caret,
 .navbar-default .navbar-nav > .open > a:focus .caret {
-  border-top-color: #444444;
-  border-bottom-color: #444444; }
+  border-top-color: #333333;
+  border-bottom-color: #333333; }
 
 .navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: #444444;
-  border-bottom-color: #444444; }
+  border-top-color: #333333;
+  border-bottom-color: #333333; }
 
 /*   gruppo   */
 @media screen and (min-width: 768px) {
@@ -624,7 +625,7 @@ ul.liv2 > li > a {
   color: #FFFFFF;
   border-right: 0px;
   font-weight: bold;
-  background: #444444; }
+  background: #333333; }
 
 /* totop */
 .fb-totop {
@@ -914,7 +915,7 @@ div.footer {
   margin-bottom: 20px;
   font-size: large;
   line-height: inherit;
-  color: #444444;
+  color: #333333;
   border: 0;
   border-bottom: 1px solid #cccccc; }
 
