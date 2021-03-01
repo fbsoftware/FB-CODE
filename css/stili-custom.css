@@ -768,9 +768,7 @@ h2 {
 
 h3 {
   font-size: 1.25em !important;
-  font-weight: 500;
-  font-style: italic;
-  text-decoration: underline; }
+  font-weight: 500; }
 
 html {
   min-height: 100%; }
