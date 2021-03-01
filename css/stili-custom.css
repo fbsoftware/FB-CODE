@@ -295,6 +295,11 @@ img.img-h300 {
   height: 300px !important;
   max-width: 400px !important; }
 
+img.img-fit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
 /* Stili per sovrascrivere e modificare il componente Accordion/collapse di Bootstrap */
 .panel {
   border: 1px solid #cccccc;
