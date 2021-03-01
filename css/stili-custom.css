@@ -297,7 +297,6 @@ img.img-h300 {
 
 img.img-fit {
   width: 100%;
-  height: 100%;
   object-fit: cover; }
 
 /* Stili per sovrascrivere e modificare il componente Accordion/collapse di Bootstrap */
