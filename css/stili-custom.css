@@ -782,7 +782,11 @@ body {
   text-rendering: optimizeLegibility; }
 
 body.admin {
-  height: 100vh; }
+  height: 100vh;
+  min-height: calc(100vh - 10%);
+  bottom: 0;
+  position: absolute;
+  margin: 10px; }
 
 /* Stile per modificare e sovrascrivere i blockquote di Bootstrap */
 blockquote {
