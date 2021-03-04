@@ -14,7 +14,7 @@ table  {
 	}
 	
 th, td { 
-	padding: 8px 16px; 
+	padding: 1em; 
 	}
 	
 th     { 
@@ -27,4 +27,8 @@ td.center {
 
 tr td:last-child	{
 border-right: 1px solid $grey-color;
+}
+
+tr:hover	{
+	background-color: $info-color;
 }
