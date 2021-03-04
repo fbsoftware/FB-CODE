@@ -103,15 +103,10 @@ div.default {
 div.basic {
   background: linear-gradient(#a0a0a0, rgba(160, 160, 160, 0.2)); }
 
-/* colore-sfondo e colore +hover dei template */
+/* sfondo e colore dei template */
 .fb-bgcolor-danger {
   background-color: #d9534f;
   color: #FFFFFF; }
-
-.fb-bgcolor-danger:hover {
-  /*	background-color: $white-color;
-  	color: $black-color;*/
-  border: 1px solid #333333; }
 
 .fb-bgcolor-primary {
   background-color: #428bca;
@@ -136,6 +131,16 @@ div.basic {
 .fb-bgcolor-basic {
   background-color: #f5f5f5;
   color: #000000; }
+
+/* bordi per :hover */
+.fb-bgcolor-danger:hover,
+.fb-bgcolor-primary:hover,
+.fb-bgcolor-success:hover,
+.fb-bgcolor-info:hover,
+.fb-bgcolor-warning:hover,
+.fb-bgcolor-default:hover,
+.fb-bgcolor-basic:hover {
+  border: 1.5px solid #333333; }
 
 /* colore template */
 .fb-color-danger {
