@@ -87,47 +87,51 @@ div.default {
 div.basic {
   background: linear-gradient(#a0a0a0, rgba(160, 160, 160, 0.2)); }
 
-/* colore-sfondo template */
+/* colore-sfondo e colore +hover dei template */
 .fb-bgcolor-danger {
-  background-color: #d9534f !important;
-  color: #FFFFFF !important; }
+  background-color: #d9534f;
+  color: #FFFFFF; }
+
+.fb-bgcolor-danger:hover {
+  background-color: #FFFFFF;
+  color: #000000; }
 
 .fb-bgcolor-primary {
-  background-color: #428bca !important;
-  color: #FFFFFF !important; }
+  background-color: #428bca;
+  color: #FFFFFF; }
 
 .fb-bgcolor-success {
-  background-color: #5cb85c !important;
-  color: #FFFFFF !important; }
+  background-color: #5cb85c;
+  color: #FFFFFF; }
 
 .fb-bgcolor-info {
-  background-color: #5bc0de !important;
-  color: #FFFFFF !important; }
+  background-color: #5bc0de;
+  color: #FFFFFF; }
 
 .fb-bgcolor-warning {
-  background-color: #f0ad4e !important;
-  color: #FFFFFF !important; }
+  background-color: #f0ad4e;
+  color: #FFFFFF; }
 
 .fb-bgcolor-default {
-  background-color: #FFFFFF !important;
-  color: #000000 !important; }
+  background-color: #FFFFFF;
+  color: #000000; }
 
 .fb-bgcolor-basic {
-  background-color: #f5f5f5 !important;
-  color: #000000 !important; }
+  background-color: #f5f5f5;
+  color: #000000; }
 
 /* colore template */
 .fb-color-danger {
-  color: #d9534f !important; }
+  color: #d9534f; }
 
 .fb-color-primary {
-  color: #428bca !important; }
+  color: #428bca; }
 
 .fb-color-default {
-  color: #FFFFFF !important; }
+  color: #FFFFFF; }
 
 .fb-color-basic {
-  color: #f5f5f5 !important; }
+  color: #f5f5f5; }
 
 /*  form  */
 /*  MIXINS  */
