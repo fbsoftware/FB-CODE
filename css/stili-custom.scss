@@ -1,6 +1,7 @@
 @charset "utf-8" ;
 @import "variabili";
 
+@import "wh";
 @import "colors";
 @import "forms";
 @import "link";
@@ -8,7 +9,7 @@
 @import "tabella";
 @import "img";
 @import "accordion";
-@import "tooltip";
+/*@import "tooltip"; ------sostituito da jquery*/
 @import "navbar";
 @import "ul-nav2-liv2";
 @import "totop";
