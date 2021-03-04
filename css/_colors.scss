@@ -54,15 +54,10 @@ div.danger {
 	background:    linear-gradient(rgba( 160,160,160, 1), rgba(160,160,160,  0.2));
 }
 
-/* colore-sfondo e colore +hover dei template */
+/* sfondo e colore dei template */
 .fb-bgcolor-danger {
 	background-color: $danger-color;
 	color: $white-color;
-}
-.fb-bgcolor-danger:hover {
-/*	background-color: $white-color;
-	color: $black-color;*/
-	border: 1px solid $darkgrey-color;
 }
 .fb-bgcolor-primary {
 	background-color: $primary-color;
@@ -89,7 +84,18 @@ div.danger {
 	background-color: $lightgrey-color;
 	color: $black-color;
 }
+/* bordi per :hover */
+.fb-bgcolor-danger:hover,
+.fb-bgcolor-primary:hover,
+.fb-bgcolor-success:hover,
+.fb-bgcolor-info:hover,
+.fb-bgcolor-warning:hover,
+.fb-bgcolor-default:hover,
+.fb-bgcolor-basic:hover
 
+ {
+	border: 1.5px solid $darkgrey-color;
+}
 
 /* colore template */
 .fb-color-danger {
