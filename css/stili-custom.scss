@@ -1,7 +1,7 @@
 @charset "utf-8" ;
 @import "variabili";
 
-@import "wh";
+@import "decori";
 @import "colors";
 @import "forms";
 @import "link";
@@ -250,23 +250,6 @@ ul, ol	{
 	text-align:center;
 }
 
-/*       RAGGIO           */
-
-.fb-rad0 {
-	border-radius: 0px;
-}
-.fb-rad2 {
-	border-radius: 2px;
-}
-.fb-rad5 {
-	border-radius: 5px;
-}
-.fb-rad7 {
-	border-radius: 7px;
-}
-.fb-rad50 {
-	border-radius: 50%;
-}
 
 
 /* --------------------------------------------- */
