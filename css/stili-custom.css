@@ -317,7 +317,8 @@ table {
   width: 100%; }
 
 th, td {
-  padding: 0.5em; }
+  padding: 0.5em;
+  text-align: center; }
 
 th {
   background: #cccccc; }
