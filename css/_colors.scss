@@ -57,31 +57,38 @@ div.danger {
 /* sfondo e colore dei template */
 .fb-bgcolor-danger {
 	background-color: $danger-color;
+	border: 1.5px solid $white-color;
 	color: $white-color;
 }
 .fb-bgcolor-primary {
 	background-color: $primary-color;
+	border: 1.5px solid $primary-color;
 	color: $white-color;
 }
 .fb-bgcolor-success {
 	background-color: $success-color;
+	border: 1.5px solid $success-color;
 	color: $white-color;
 }
 
 .fb-bgcolor-info {
 	background-color: $info-color;
+	border: 1.5px solid $info-color;
 	color: $white-color;
 }
 .fb-bgcolor-warning {
 	background-color: $warning-color;
+	border: 1.5px solid $warning-color;
 	color: $white-color;
 }
 .fb-bgcolor-default {
 	background-color: $white-color;
+	border: 1.5px solid $white-color;
 	color: $black-color;
 }
 .fb-bgcolor-basic {
 	background-color: $lightgrey-color;
+	border: 1.5px solid $lightgrey-color;
 	color: $black-color;
 }
 /* bordi per :hover */

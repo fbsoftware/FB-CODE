@@ -106,30 +106,37 @@ div.basic {
 /* sfondo e colore dei template */
 .fb-bgcolor-danger {
   background-color: #d9534f;
+  border: 1.5px solid #FFFFFF;
   color: #FFFFFF; }
 
 .fb-bgcolor-primary {
   background-color: #428bca;
+  border: 1.5px solid #428bca;
   color: #FFFFFF; }
 
 .fb-bgcolor-success {
   background-color: #5cb85c;
+  border: 1.5px solid #5cb85c;
   color: #FFFFFF; }
 
 .fb-bgcolor-info {
   background-color: #5bc0de;
+  border: 1.5px solid #5bc0de;
   color: #FFFFFF; }
 
 .fb-bgcolor-warning {
   background-color: #f0ad4e;
+  border: 1.5px solid #f0ad4e;
   color: #FFFFFF; }
 
 .fb-bgcolor-default {
   background-color: #FFFFFF;
+  border: 1.5px solid #FFFFFF;
   color: #000000; }
 
 .fb-bgcolor-basic {
   background-color: #f5f5f5;
+  border: 1.5px solid #f5f5f5;
   color: #000000; }
 
 /* bordi per :hover */
