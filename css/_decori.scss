@@ -3,9 +3,6 @@
 	width: 400px;
 }
 
-
-
-
 /* altezze  */
 .fb-h400	{
 	height: 400px;
@@ -38,4 +35,22 @@
 }
 .fb-p3		{
 	padding: 3em;
+}
+
+/*       RAGGIO           */
+
+.fb-rad0 {
+	border-radius: 0px;
+}
+.fb-rad2 {
+	border-radius: 2px;
+}
+.fb-rad5 {
+	border-radius: 5px;
+}
+.fb-rad7 {
+	border-radius: 7px;
+}
+.fb-rad50 {
+	border-radius: 50%;
 }

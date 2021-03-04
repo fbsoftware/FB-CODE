@@ -38,6 +38,22 @@
 .fb-p3 {
   padding: 3em; }
 
+/*       RAGGIO           */
+.fb-rad0 {
+  border-radius: 0px; }
+
+.fb-rad2 {
+  border-radius: 2px; }
+
+.fb-rad5 {
+  border-radius: 5px; }
+
+.fb-rad7 {
+  border-radius: 7px; }
+
+.fb-rad50 {
+  border-radius: 50%; }
+
 /*     C O L O R I           */
 .blue {
   color: #0000FF; }
@@ -219,9 +235,6 @@ button {
 /* LINK */
 a {
   text-decoration: none !important; }
-
-a[data-toggle="tooltip"] {
-  cursor: none; }
 
 a:link {
   color: #000000; }
@@ -885,22 +898,6 @@ ul, ol {
 .fa-glyph-center {
   display: block !important;
   text-align: center; }
-
-/*       RAGGIO           */
-.fb-rad0 {
-  border-radius: 0px; }
-
-.fb-rad2 {
-  border-radius: 2px; }
-
-.fb-rad5 {
-  border-radius: 5px; }
-
-.fb-rad7 {
-  border-radius: 7px; }
-
-.fb-rad50 {
-  border-radius: 50%; }
 
 /* --------------------------------------------- */
 .well {
