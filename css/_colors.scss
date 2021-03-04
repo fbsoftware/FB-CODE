@@ -60,8 +60,9 @@ div.danger {
 	color: $white-color;
 }
 .fb-bgcolor-danger:hover {
-	background-color: $white-color;
-	color: $black-color;
+/*	background-color: $white-color;
+	color: $black-color;*/
+	border: 1px solid $darkgrey-color;
 }
 .fb-bgcolor-primary {
 	background-color: $primary-color;
