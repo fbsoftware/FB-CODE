@@ -53,49 +53,54 @@ div.danger {
  div.basic {
 	background:    linear-gradient(rgba( 160,160,160, 1), rgba(160,160,160,  0.2));
 }
-/* colore-sfondo template */
+
+/* colore-sfondo e colore +hover dei template */
 .fb-bgcolor-danger {
-	background-color: $danger-color !important;
-	color: $white-color !important;
+	background-color: $danger-color;
+	color: $white-color;
+}
+.fb-bgcolor-danger:hover {
+	background-color: $white-color;
+	color: $black-color;
 }
 .fb-bgcolor-primary {
-	background-color: $primary-color !important;
-	color: $white-color !important;
+	background-color: $primary-color;
+	color: $white-color;
 }
 .fb-bgcolor-success {
-	background-color: $success-color !important;
-	color: $white-color !important;
+	background-color: $success-color;
+	color: $white-color;
 }
 
 .fb-bgcolor-info {
-	background-color: $info-color !important;
-	color: $white-color !important;
+	background-color: $info-color;
+	color: $white-color;
 }
 .fb-bgcolor-warning {
-	background-color: $warning-color !important;
-	color: $white-color !important;
+	background-color: $warning-color;
+	color: $white-color;
 }
 .fb-bgcolor-default {
-	background-color: $white-color !important;
-	color: $black-color !important;
+	background-color: $white-color;
+	color: $black-color;
 }
 .fb-bgcolor-basic {
-	background-color: $lightgrey-color !important;
-	color: $black-color !important;
+	background-color: $lightgrey-color;
+	color: $black-color;
 }
 
 
 /* colore template */
 .fb-color-danger {
-	color: $danger-color !important; 
+	color: $danger-color; 
 }
 .fb-color-primary {
-	color: $primary-color !important;
+	color: $primary-color;
 }
 .fb-color-default {
-	color: $white-color !important;
+	color: $white-color;
 }
 .fb-color-basic {
-	color: $lightgrey-color !important;
+	color: $lightgrey-color;
 }
 
