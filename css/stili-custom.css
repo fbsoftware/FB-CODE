@@ -691,13 +691,13 @@ ul.liv2 > li > a {
   font-size: .8rem;
   margin: 0.5rem;
   line-height: 1.5;
-  border-bottom: 1px solid #d0d0d0;
+  border-bottom: 1px solid #333333;
   flex: 1 1 auto; }
 
 .th {
   display: flex;
   font-weight: 700;
-  background-color: #f2f2f2; }
+  background-color: #cccccc; }
 
 .th > .td {
   white-space: normal;
@@ -709,10 +709,10 @@ ul.liv2 > li > a {
   flex-flow: row nowrap; }
 
 .tr:nth-of-type(even) {
-  background-color: #f2f2f2; }
+  background-color: #f5f5f5; }
 
 .tr:nth-of-type(odd) {
-  background-color: #ffffff; }
+  background-color: #FFFFFF; }
 
 .td {
   display: flex;
