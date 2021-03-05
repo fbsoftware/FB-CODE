@@ -9,7 +9,9 @@
 }
 
 .th {
-display: flex;
+  position: sticky;
+  top: 0;
+  display: flex;
   font-weight: 700;
   background-color: $grey-color;
 }

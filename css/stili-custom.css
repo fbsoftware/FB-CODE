@@ -695,6 +695,8 @@ ul.liv2 > li > a {
   flex: 1 1 auto; }
 
 .th {
+  position: sticky;
+  top: 0;
   display: flex;
   font-weight: 700;
   background-color: #cccccc; }
