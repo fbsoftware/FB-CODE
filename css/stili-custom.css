@@ -724,8 +724,6 @@ ul.liv2 > li > a {
 .td {
   display: flex;
   flex-flow: row nowrap;
-  flex-grow: 1;
-  flex-basis: 0;
   padding: 0.5em;
   word-break: break-word;
   overflow: hidden;
