@@ -6,6 +6,8 @@
   line-height: 1.5;
   border-bottom: 1px solid $darkgrey-color;
   flex: 1 1 auto;
+  display:block; 
+  overflow:scroll;
 }
 
 .th {

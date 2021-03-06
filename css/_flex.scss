@@ -34,6 +34,6 @@
 .f-ord3		{order:3;}
 .f-ord4		{order:4;}
 
-.f-dim1		{ flex:1; }		/* dimensione singola */
-.f-dim2		{ flex:2; }		/* dimensione doppia  */
-.f-dim3		{ flex:3; }		/* dimensione tripla  */
+.f-dim1		{ flex-grow:1; }		/* dimensione singola */
+.f-dim2		{ flex-grow:2; }		/* dimensione doppia  */
+.f-dim3		{ flex-grow:3; }		/* dimensione tripla  */

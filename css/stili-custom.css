@@ -27,6 +27,9 @@
 
 /* padding */
 .fb-p05 {
+  padding: 0.25em; }
+
+.fb-p05 {
   padding: 0.5em; }
 
 .fb-p1 {
@@ -38,7 +41,7 @@
 .fb-p3 {
   padding: 3em; }
 
-/*       RAGGIO           */
+/* Raggio del bordo */
 .fb-rad0 {
   border-radius: 0px; }
 
@@ -674,15 +677,15 @@ ul.liv2 > li > a {
   order: 4; }
 
 .f-dim1 {
-  flex: 1; }
+  flex-grow: 1; }
 
 /* dimensione singola */
 .f-dim2 {
-  flex: 2; }
+  flex-grow: 2; }
 
 /* dimensione doppia  */
 .f-dim3 {
-  flex: 3; }
+  flex-grow: 3; }
 
 /* dimensione tripla  */
 .table {
@@ -692,7 +695,9 @@ ul.liv2 > li > a {
   margin: 0.5rem;
   line-height: 1.5;
   border-bottom: 1px solid #333333;
-  flex: 1 1 auto; }
+  flex: 1 1 auto;
+  display: block;
+  overflow: scroll; }
 
 .th {
   position: sticky;
