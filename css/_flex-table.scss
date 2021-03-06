@@ -18,7 +18,8 @@
   background-color: $grey-color;
 }
 
-.th > .td {
+.th > .td,
+.tr > .td {
   white-space: normal;
   justify-content: left;
 }
@@ -47,5 +48,4 @@
   min-width: 0px;
   white-space: nowrap;
   border-bottom: 1px solid $grey-color;
-  justify-content: left;
 }
