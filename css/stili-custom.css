@@ -706,7 +706,8 @@ ul.liv2 > li > a {
   font-weight: 700;
   background-color: #cccccc; }
 
-.th > .td {
+.th > .td,
+.tr > .td {
   white-space: normal;
   justify-content: left; }
 
@@ -730,8 +731,7 @@ ul.liv2 > li > a {
   text-overflow: ellipsis;
   min-width: 0px;
   white-space: nowrap;
-  border-bottom: 1px solid #cccccc;
-  justify-content: left; }
+  border-bottom: 1px solid #cccccc; }
 
 /* --------------------------------------------- */
 .fb-col1 {
