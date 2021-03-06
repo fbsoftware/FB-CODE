@@ -6,11 +6,11 @@
 /* ----------------- */
 /* larghezze  */
 .fb-w400 {
-  width: 400px; }
+  width: 80vw; }
 
 /* altezze  */
 .fb-h400 {
-  height: 400px; }
+  height: 80vh; }
 
 /* margini */
 .fb-m05 {
