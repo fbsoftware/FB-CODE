@@ -731,7 +731,8 @@ ul.liv2 > li > a {
   text-overflow: ellipsis;
   min-width: 0px;
   white-space: nowrap;
-  border-bottom: 1px solid #cccccc; }
+  border-bottom: 1px solid #cccccc;
+  flex: 1; }
 
 /* --------------------------------------------- */
 .fb-col1 {
