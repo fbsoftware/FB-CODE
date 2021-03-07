@@ -5,11 +5,14 @@
 /*  grigio scuro    */
 /* ----------------- */
 /* larghezze  */
-.fb-w400 {
+.fb-w80 {
   width: 80vw; }
 
+.fb-w25 {
+  width: 25vw; }
+
 /* altezze  */
-.fb-h400 {
+.fb-h80 {
   height: 80vh; }
 
 /* margini */
