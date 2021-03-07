@@ -700,7 +700,7 @@ ul.liv2 > li > a {
   border-bottom: 1px solid #333333;
   flex: 1 1 auto;
   display: block;
-  overflow: scroll; }
+  overflow-y: scroll; }
 
 .th {
   position: sticky;
