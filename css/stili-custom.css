@@ -1,9 +1,6 @@
 /* colori */
-/* ----------------- */
-/*  grigio regular  */
-/*  grigio chiaro   */
-/*  grigio scuro    */
-/* ----------------- */
+/* Coolors Exported Palette - https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557 */
+/* SCSS HEX */
 /* larghezze  */
 .fb-w80 {
   width: 80vw; }
@@ -61,53 +58,24 @@
   border-radius: 50%; }
 
 /*     C O L O R I           */
+.fb-bgcolor-pri {
+  /* sfondo e colore dei template */
+  background-color: #a8dadc;
+  border: 1.5px solid #a8dadc;
+  color: #1d3557; }
+
+.fb-bgcolor-sec {
+  background-color: #457b9d;
+  border: 1.5px solid #457b9d;
+  color: #1d3557; }
+
+.fb-bgcolor-accent {
+  background-color: #e63946;
+  border: 1.5px solid #e63946;
+  color: #f1faee; }
+
 .blue {
   color: #0000FF; }
-
-.black {
-  color: #000000; }
-
-.white {
-  color: #FFFFFF; }
-
-.transparent {
-  background-color: transparent; }
-
-.danger {
-  color: #d9534f; }
-
-.primary {
-  color: #428bca; }
-
-.success {
-  color: #5cb85c; }
-
-.info {
-  color: #5bc0de; }
-
-.warning {
-  color: #f0ad4e; }
-
-.default {
-  color: #FFFFFF; }
-
-div.success {
-  background: linear-gradient(#5cb85c, rgba(92, 184, 92, 0.2)); }
-
-div.danger {
-  background: linear-gradient(#c9302c, rgba(201, 48, 44, 0.2)); }
-
-div.info {
-  background: linear-gradient(#46b8da, rgba(70, 184, 218, 0.2)); }
-
-div.warning {
-  background: linear-gradient(#ec971f, rgba(236, 151, 31, 0.2)); }
-
-div.default {
-  background: linear-gradient(#767676, rgba(118, 118, 118, 0.2)); }
-
-div.basic {
-  background: linear-gradient(#a0a0a0, rgba(160, 160, 160, 0.2)); }
 
 /* sfondo e colore dei template */
 .fb-bgcolor-danger {
