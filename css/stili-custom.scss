@@ -65,7 +65,7 @@ blockquote {
 
 p {
 text-align: justify;
-color: $black-color;
+color: $tx-color;
 font-size: 1em;
 font-weight:400;
 max-width:60ch;
@@ -84,14 +84,14 @@ color: $success-color;
 }
 
 Pre {
-color: $black-color;
+color: $tx-color;
 line-height: 1.2em;
 margin: 0 0 0.3125em 0;
 }
 
 
 hr {
-color: $black-color;
+color: $tx-color;
 }
 
 hr.slim   { 		 /* HR senza margini verticali  */
@@ -110,11 +110,11 @@ border: 0;
 }
 
 footer {
-	background-color: $white-color;
+	background-color: $bg-color;
 	padding: 10px;
-	border-left:1px solid #ccc;
-	border-right:1px solid #ccc;
-	border-bottom:1px solid #ccc;
+	border-left:1px solid $grey-color;
+	border-right:1px solid $grey-color;
+	border-bottom:1px solid $grey-color;
 	border-radius:0 0 7px 7px; 
 }
 
@@ -123,7 +123,7 @@ footer a, footer a:hover {
 }
 
 section#corpo	{
-	border:1px solid #ccc;
+	border:1px solid $grey-color;
 }
 
 header {
@@ -137,7 +137,7 @@ background-image: -webkit-linear-gradient(top,$info-color ,darken($info-color,20
 background-image: -ms-linear-gradient(top,$info-color ,darken($info-color,20%) );
 font-size: xx-large;
 font-weight: bolder;
-color: $white-color;
+color: $bg-color;
 border: 1px solid $grey-color;
 border-radius: 7px 7px 0 0;
 }
@@ -147,15 +147,15 @@ float: left;
 width: 100%;
 margin: 0;
 padding: 0;
-background-color: $lightgrey-color;
-border-left: 1px solid $grey-color;
-border-right: 1px solid $grey-color;
+background-color: $pri-color;
+border-left: 1px solid $pri-color;
+border-right: 1px solid $pri-color;
 }
 
 article {
 float: left;
 width: 100%;
-color: $black-color;
+color: $tx-color;
 background: transparent;
 }
 
@@ -163,14 +163,14 @@ aside.left {
 float: left;
 width: 0%;
 background: transparent;
-color: $black-color;
+color: $tx-color;
 }
 
 aside.right {
 float: left;
 width: 0%;
 background: transparent;
-color: $black-color;
+color: $tx-color;
 }
 
 
@@ -329,7 +329,7 @@ h1.toolbar	{
 	font-size:x-large;	
 	font-weight: bold;
 	margin-top: 10px;
-	color:$white-color;
+	color:$bg-color;
 }
 
 /*   ID   */
