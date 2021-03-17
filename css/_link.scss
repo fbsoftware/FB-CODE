@@ -4,17 +4,17 @@ text-decoration: none  !important
 }
 
 a:link {
-color: $black-color;
+color: $pri-color;
 }
 
 a:active {
-color: $warning-color;
+color: $pri-color;
 }
 
 a:visited {
-color: $primary-color;
+color: $pri-color;
 }
 
 a:hover {
-color: $danger-color;
+color: $sec-color;
 }
