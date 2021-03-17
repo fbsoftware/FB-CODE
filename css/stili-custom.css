@@ -499,15 +499,18 @@ img.img-fit {
   order: 4; }
 
 .f-dim1 {
-  flex-grow: 1; }
+  flex-grow: 1;
+  flex-basis: 0; }
 
 /* dimensione singola */
 .f-dim2 {
-  flex-grow: 2; }
+  flex-grow: 2;
+  flex-basis: 0; }
 
 /* dimensione doppia  */
 .f-dim3 {
-  flex-grow: 3; }
+  flex-grow: 3;
+  flex-basis: 0; }
 
 /* dimensione tripla  */
 .table {
