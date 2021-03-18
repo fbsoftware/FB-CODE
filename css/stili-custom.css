@@ -312,7 +312,7 @@ img {
   margin: 0.25em;
   vertical-align: middle; }
 
-img .promo {
+img.promo {
   height: 200px; }
 
 .img-utente {
