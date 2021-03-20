@@ -410,15 +410,11 @@ ul.nav2 {
   font-weight: bold;
   width: 90%; }
 
-ul.nav2 li {
+ul.nav2 > li {
   float: left;
   margin: 0;
   padding: 0;
   color: #000000; }
-
-ul.nav2 li a {
-  color: #d9534f;
-  border-right: 0px; }
 
 ul.nav2 > li > a {
   color: #0000FF;
