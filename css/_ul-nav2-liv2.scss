@@ -9,16 +9,13 @@ ul.nav2 {
 	font-weight: bold;
 	width: 90%;
 }
-ul.nav2 li {
+ul.nav2>li {
 	float: left;
 	margin: 0;
 	padding: 0;
 	color: $black-color;
 }
-ul.nav2 li a {
-	color: $danger-color;
-	border-right: 0px;
-}
+
 ul.nav2>li>a {
 	color: $blue-color;
 	border-right: 0px;
