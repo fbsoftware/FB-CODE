@@ -23,8 +23,8 @@ ul.nav2 li a {
 ul.nav2>li>a {
 	color: $blue-color;
 	border-right: 0px;
-	font-weight: normal !important;
-	background: transparent !important;
+	font-weight: normal;
+	background: transparent;
 }
 ul.nav2 li a:hover {
 	background: $black-color;
@@ -73,5 +73,5 @@ ul.liv2>li>a {
 	color: $white-color;
 	border-right: 0px;
 	font-weight: bold;
-	background: $darkgrey-color;
+	background: $sec-color;
 }
