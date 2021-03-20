@@ -1,20 +1,17 @@
 /*   FIELDSET   */
-@mixin	fieldset()
+@mixin	fieldset
 {
 	background: $lightgrey-color;
 	border: 1px solid $grey-color;
-	border-radius: 4px;
-	padding: 5px;
+	border-radius: 1em;
+	padding: 1em;
 }
 fieldset {
-@include	fieldset();
-	margin-bottom: 5px;
+@include	fieldset;
+	margin-bottom: 0.25em;
 }
-fieldset.toolbar  {
-@include	fieldset();
-     margin-top: 5px;
-	 height: 55px;
-}
+
+
 fieldset.input {
 border: none;
 margin: 1px;
@@ -25,8 +22,8 @@ border-radius: 0;
 fieldset.tabella {
 border: 1px solid $grey-color;
 margin: 0;
-padding: 10px;
-border-radius: 7px;
+padding: 0.5em;
+border-radius: 0.5em;
 }
 
 fieldset div {
