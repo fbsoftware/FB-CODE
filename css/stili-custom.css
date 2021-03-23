@@ -512,13 +512,11 @@ ul.liv2 > li > a {
 
 .fd-row-rev,
 .fd-row {
-  flex-direction: row;
-  display: block; }
+  flex-direction: row; }
 
 .fd-column-rev,
 .fd-column {
-  flex-direction: column;
-  display: block; }
+  flex-direction: column; }
 
 .jc-center {
   justify-content: center; }
