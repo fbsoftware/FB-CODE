@@ -7,11 +7,9 @@
 .f-item 		{ display: flex; }
 
 .fd-row-rev,
-.fd-row 		{ flex-direction: row; 
-					display:block;}
+.fd-row 		{ flex-direction: row; 	}
 .fd-column-rev,
-.fd-column 		{ flex-direction: column;
-					display:block;}
+.fd-column 		{ flex-direction: column; }
 
 .jc-center 	{ justify-content: center; }
 .jc-end		{ justify-content:flex-end ;}
