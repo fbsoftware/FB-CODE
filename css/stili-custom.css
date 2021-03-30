@@ -670,8 +670,9 @@ ul.liv2 > li > a {
   margin-top: 100px;
   box-shadow: 0px 2px 6px black;
   border-radius: 3px;
-  background: #f1faee;
-  position: relative; }
+  /*   background: $bg-color; */
+  position: relative;
+  overflow-y: scroll; }
 
 /* Popup close button */
 .close-button {
