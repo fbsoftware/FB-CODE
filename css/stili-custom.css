@@ -225,7 +225,8 @@ button:hover {
 
 /* LINK */
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  display: block; }
 
 /*
 a:link {
