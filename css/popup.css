@@ -3,7 +3,7 @@
 	position:fixed;
 	top:0px;
 	left:0px;
-	background: $bg-color;
+	background: var(--bg-color);
 	width:100%;
 	height:100%;
 	display:none;
@@ -28,12 +28,12 @@
     right: 1em;
     font-size: 2em;
     text-align: center;
-    color: $tx-color;
+    color: var(--tx-color);
 	text-decoration:none;
 }
 
 .close-button:hover {
-	color: $accent;
+	color: var(--accent-color);
 }
 
 @media screen and (max-width: 720px) {

@@ -14,57 +14,57 @@
 	padding:0px !important;
 }
 .navbar-default {
-	background-color: $lightgrey-color;
+	background-color: var(--lightgrey-color);
 }
 .navbar-default .navbar-nav > li > a {
 	font-size: medium;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: $darkgrey-color;
-	border-bottom: 1px solid $primary-color;
+	color: var(--darkgrey-color);
+	border-bottom: 1px solid var(--primary-color);
 }
 .navbar-default .navbar-nav > li > a:hover,                                              
 .navbar-default .navbar-nav > li > a:focus {
-	color: $primary-color;
+	color: var(--primary-color);
 }
 .navbar-default .navbar-nav > .active > a,                                          
 .navbar-default .navbar-nav > .active > a:hover,                                         
 .navbar-default .navbar-nav > .active > a:focus {
-	color: $white-color;
-	background-color: $primary-color;
+	color: var(--black-color);
+	background-color: var(--primary-color);
 }
 .navbar-toggle {
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle {
-	border: 1px solid $primary-color;
+	border: 1px solid var(--primary-color);
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: $primary-color;
+	background-color: var(--primary-color);
 }
 .navbar-default .navbar-collapse {
 	border-color: transparent;
 }
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,                                
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
-	border-top-color: $primary-color;
-	border-bottom-color: $primary-color;
+	border-top-color: var(--primary-color);
+	border-bottom-color: var(--primary-color);
 }
 .navbar-default .navbar-nav > .open > a,                                            
 .navbar-default .navbar-nav > .open > a:hover,                                           
 .navbar-default .navbar-nav > .open > a:focus {
-	color: $white-color;
-	background-color: $primary-color;
+	color: var(--black-color);
+	background-color: var(--primary-color);
 }
 .navbar-default .navbar-nav > .open > a .caret,                                     
 .navbar-default .navbar-nav > .open > a:hover .caret,                                    
 .navbar-default .navbar-nav > .open > a:focus .caret {
-	border-top-color: $darkgrey-color;
-	border-bottom-color: $darkgrey-color;
+	border-top-color: var(--darkgrey-color);
+	border-bottom-color: var(--darkgrey-color);
 }
 .navbar-default .navbar-nav > .dropdown > a .caret {
-	border-top-color: $darkgrey-color;
-	border-bottom-color: $darkgrey-color;
+	border-top-color: var(--darkgrey-color);
+	border-bottom-color: var(--darkgrey-color);
 }
 /*   gruppo   */
 @media screen and (min-width: 768px) {
@@ -73,7 +73,7 @@
 }
 .navbar-default .navbar-nav > li > a:hover,                                              
 .navbar-default .navbar-nav > li > a:focus {
-	border: 2px solid $primary-color;
+	border: 2px solid var(--primary-color);
 	padding-top: 13px;
 }
 }

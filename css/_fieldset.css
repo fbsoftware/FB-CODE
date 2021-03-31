@@ -1,8 +1,8 @@
 /*   FIELDSET   */
 @mixin	fieldset
 {
-	background: $lightgrey-color;
-	border: 1px solid $grey-color;
+	background: var(--lightgrey-color);
+	border: 1px solid var(--grey-color);
 	border-radius: 1em;
 	padding: 1em;
 }
@@ -20,7 +20,7 @@ border-radius: 0;
 }
 
 fieldset.tabella {
-border: 1px solid $grey-color;
+border: 1px solid var(--grey-color);
 margin: 0;
 padding: 0.5em;
 border-radius: 0.5em;
@@ -34,7 +34,7 @@ padding: 1px 0 2px;
 
 
 legend {
-	color: $danger-color;
+	color: var(--danger-color);
 	border-bottom: none !important;
 	margin-bottom: 0px  !important;
 	padding: 0 5px;

@@ -1,0 +1,86 @@
+/*     C O L O R I           */
+.fb-bgcolor-pri {
+/* sfondo e colore dei template */
+	background-color: var(--bg-color);
+	border: 1.5px solid var(--bg-color);
+	color: var(--tx-color);
+}
+
+.fb-bgcolor-sec {
+	background-color: var(--sec-color);
+	border: 1.5px solid var(--sec-color);
+	color: var(--tx-color);
+}
+
+.fb-bgcolor-accent {
+	background-color: var(--accent-color);
+	border: 1.5px solid var(--accent-color);
+	color: var(--bg-color);
+}
+.blue {
+	color: var(--blue-color);
+}
+
+/* sfondo e colore dei template */
+.fb-bgcolor-danger {
+	background-color: var(--danger-color);
+	border: 1.5px solid var(--black-color);
+	color: var(--black-color);
+}
+.fb-bgcolor-primary {
+	background-color: var(--primary-color);
+	border: 1.5px solid var(--primary-color);
+	color: var(--black-color);
+}
+.fb-bgcolor-success {
+	background-color: var(--success-color);
+	border: 1.5px solid var(--success-color);
+	color: var(--black-color);
+}
+
+.fb-bgcolor-info {
+	background-color: var(--info-color);
+	border: 1.5px solid var(--info-color);
+	color: var(--black-color);
+}
+.fb-bgcolor-warning {
+	background-color: var(--warning-color);
+	border: 1.5px solid var(--warning-color);
+	color: var(--black-color);
+}
+.fb-bgcolor-default {
+	background-color: var(--black-color);
+	border: 1.5px solid var(--black-color);
+	color: var(--black-color);
+}
+.fb-bgcolor-basic {
+	background-color: var(--lightgrey-color);
+	border: 1.5px solid var(--lightgrey-color);
+	color: var(--black-color);
+}
+/* bordi per :hover */
+.fb-bgcolor-danger:hover,
+.fb-bgcolor-primary:hover,
+.fb-bgcolor-success:hover,
+.fb-bgcolor-info:hover,
+.fb-bgcolor-warning:hover,
+.fb-bgcolor-default:hover,
+.fb-bgcolor-basic:hover
+ {
+	border: 1.5px solid var(--darkgrey-color);
+}
+
+/* colore template */
+.fb-color-danger {
+	color: var(--danger-color); 
+}
+.fb-color-primary {
+	color: var(--primary-color);
+}
+.fb-color-default {
+	color: var(--white-color);
+}
+.fb-color-basic {
+	color: var(--lightgrey-color);
+}
+

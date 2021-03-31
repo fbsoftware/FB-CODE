@@ -13,17 +13,17 @@ ul.nav2>li {
 	float: left;
 	margin: 0;
 	padding: 0;
-	color: $black-color;
+	color: var(--black-color);
 }
 
 ul.nav2>li>a {
-	color: $blue-color;
+	color: var(--blue-color);
 	border-right: 0px;
 	font-weight: normal;
 	background: transparent;
 }
 ul.nav2 li a:hover {
-	background: $pri-color;
+	background: var(--bg-color);
 }
 ul.nav2 a:link,                                                                       
 ul.nav2 a:visited {
@@ -34,8 +34,8 @@ ul.nav2 a:visited {
 ul.nav2 a:hover,                                                                          
 ul.nav2 a:focus,                                                                        
 ul.nav2 a:active {
-	background-color: $lightgrey-color;
-	color: $danger-color;
+	background-color: var(--lightgrey-color);
+	color: var(--danger-color);
 	text-decoration: none;
 }
 ul.nav2 li:hover ul.liv2 {
@@ -45,7 +45,7 @@ ul.nav2 li:hover ul.liv2 {
 	width: 13%;
 	padding: 0;
 	margin: 0;
-	background: $lightgrey-color;
+	background: var(--lightgrey-color);
 }
 
 /*       UL-LIV2           */
@@ -57,7 +57,7 @@ ul.liv2 {
 	width: 13%;
 	padding: 0;
 	margin: 0;
-	background: $lightgrey-color;
+	background: var(--lightgrey-color);
 }
 ul.liv2 li {
 	list-style: none;
@@ -66,8 +66,8 @@ ul.liv2 li {
 	width: 100%;
 }
 ul.liv2>li>a {
-	color: $white-color;
+	color: var(--black-color);
 	border-right: 0px;
 	font-weight: bold;
-	background: $sec-color;
+	background: var(--sec-color);
 }
