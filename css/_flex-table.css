@@ -4,7 +4,7 @@
   font-size: .8rem;
   margin: 0.5rem;
   line-height: 1.5;
-  border-bottom: 1px solid $darkgrey-color;
+  border-bottom: 1px solid var(--darkgrey-color);
   flex: 1 1 auto;
   display:block; 
   overflow-y:scroll;
@@ -15,7 +15,7 @@
   top: 0;
   display: flex;
   font-weight: 700;
-  background-color: $grey-color;
+  background-color: var(--grey-color);
 }
 
 .th > .td,
@@ -31,11 +31,11 @@
 }
 
 .tr:nth-of-type(even) {
-  background-color: $lightgrey-color;
+  background-color: var(--lightgrey-color);
 }
 
 .tr:nth-of-type(odd) {
-  background-color: $white-color;
+  background-color: var(--black-color);
 }
 
 .td {
@@ -47,6 +47,6 @@
   text-overflow: ellipsis;
   min-width: 0px;
   white-space: nowrap;
-  border-bottom: 1px solid $grey-color;
+  border-bottom: 1px solid var(--grey-color);
   flex:1;
 }
