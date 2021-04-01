@@ -630,7 +630,7 @@ ul.liv2 > li > a {
   background-color: var(--lightgrey-color); }
 
 .tr:nth-of-type(odd) {
-  background-color: var(--black-color); }
+  background-color: var(--grey-color); }
 
 .td {
   display: flex;
