@@ -141,11 +141,12 @@ float: left;
 width: 100%;
 margin: 0;
 height: 65px;
-background: var(--sec-color);
+/*background: var(--sec-color);
 background: linear-gradient(to top,var(--info-color) 20% ,var(--sec-color) 80%);
 background: -moz-linear-gradient(to top,var(--info-color) 20%,var(--sec-color) 80%);
 background: -webkit-linear-gradient(to top,var(--info-color) 20%,var(--sec-color) 80%);
-background: -ms-linear-gradient(to top,var(--info-color) 20%,var(--sec-color) 80%);
+background: -ms-linear-gradient(to top,var(--info-color) 20%,var(--sec-color) 80%);*/
+background: -ms-linear-gradient(0deg, hsla(195, 86%, 50%, 1) 20%, hsla(236, 93%, 65%, 1) 100%);
 font-size: 1.5em;
 font-weight: bolder;
 color: var(--bg-color);
