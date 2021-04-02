@@ -141,6 +141,7 @@ float: left;
 width: 100%;
 margin: 0;
 height: 65px;
+background: var(--sec-color);
 background: linear-gradient(to top,var(--info-color) 20% ,var(--sec-color) 80%);
 background: -moz-linear-gradient(to top,var(--info-color) ,var(--sec-color) );
 background: -webkit-linear-gradient(to top,var(--info-color) ,var(--sec-color) );
