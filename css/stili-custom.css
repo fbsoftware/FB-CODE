@@ -785,9 +785,9 @@ header {
   height: 65px;
   background: var(--sec-color);
   background: linear-gradient(to top, var(--info-color) 20%, var(--sec-color) 80%);
-  background: -moz-linear-gradient(to top, var(--info-color), var(--sec-color));
-  background: -webkit-linear-gradient(to top, var(--info-color), var(--sec-color));
-  background: -ms-linear-gradient(to top, var(--info-color), var(--sec-color));
+  background: -moz-linear-gradient(to top, var(--info-color) 20%, var(--sec-color) 80%);
+  background: -webkit-linear-gradient(to top, var(--info-color) 20%, var(--sec-color) 80%);
+  background: -ms-linear-gradient(to top, var(--info-color) 20%, var(--sec-color) 80%);
   font-size: 1.5em;
   font-weight: bolder;
   color: var(--bg-color);
