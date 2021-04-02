@@ -177,7 +177,7 @@ select {
 textarea,
 textarea > p {
   color: var(--blue-color);
-  font-size: medium; }
+  font-size: 1em; }
 
 /*  LABEL  */
 label {
@@ -292,7 +292,7 @@ legend {
   padding: 0 5px;
   width: fit-content !important;
   font-weight: bold;
-  font-size: medium; }
+  font-size: 1em; }
 
 /* TABELLA */
 .tableFixHead {
@@ -405,7 +405,7 @@ img.img-fit {
 .panel-carousel-heading {
   margin: -15px -15px 15px;
   padding: 10px 15px;
-  font-size: medium;
+  font-size: 1em;
   font-weight: 500;
   color: var(--black-color);
   border-bottom: 1px solid var(--grey-color); }
@@ -417,7 +417,7 @@ img.img-fit {
   border-top: 1px solid var(--grey-color); }
 
 .panel-carousel-control {
-  font-size: medium; }
+  font-size: 1em; }
 
 .panel-carousel-control:hover,
 .panel-carousel-control:focus {
@@ -429,7 +429,7 @@ ul.nav2 {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 1em Verdana;
+  font-size: 1em;
   font-weight: bold;
   width: 90%; }
 
@@ -487,7 +487,7 @@ ul.liv2 li {
   width: 100%; }
 
 ul.liv2 > li > a {
-  color: var(--black-color);
+  color: var(--white-color);
   border-right: 0px;
   font-weight: bold;
   background: var(--sec-color); }
@@ -783,11 +783,11 @@ header {
   width: 100%;
   margin: 0;
   height: 65px;
-  background-image: linear-gradient(top, var(--info-color), darken, var(--info-color), 20%);
-  background-image: -moz-linear-gradient(top, var(--info-color), darken, var(--info-color), 20%);
-  background-image: -webkit-linear-gradient(top, var(--info-color), darken, var(--info-color), 20%);
-  background-image: -ms-linear-gradient(top, var(--info-color), darken, var(--info-color), 20%);
-  font-size: xx-large;
+  background-image: linear-gradient(to top, var(--info-color), var(--info-color));
+  background-image: -moz-linear-gradient(to top, var(--info-color), var(--info-color));
+  background-image: -webkit-linear-gradient(to top, var(--info-color), var(--info-color));
+  background-image: -ms-linear-gradient(to top, var(--info-color), var(--info-color));
+  font-size: 1.5em;
   font-weight: bolder;
   color: var(--bg-color);
   border: 1px solid var(--grey-color);
@@ -921,7 +921,7 @@ ul, ol {
 
 /*  CLASSI  */
 .little {
-  font-size: xx-small; }
+  font-size: 0.5625em; }
 
 .center {
   text-align: center; }
@@ -940,7 +940,7 @@ ul, ol {
   margin: 0; }
 
 h1.toolbar {
-  font-size: x-large;
+  font-size: 1.5em;
   font-weight: bold;
   margin-top: 10px;
   color: var(--bg-color); }

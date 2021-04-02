@@ -5,7 +5,7 @@ ul.nav2 {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	font-size: 1em Verdana;
+	font-size: 1em;
 	font-weight: bold;
 	width: 90%;
 }
@@ -66,7 +66,7 @@ ul.liv2 li {
 	width: 100%;
 }
 ul.liv2>li>a {
-	color: var(--black-color);
+	color: var(--white-color);
 	border-right: 0px;
 	font-weight: bold;
 	background: var(--sec-color);

@@ -141,11 +141,11 @@ float: left;
 width: 100%;
 margin: 0;
 height: 65px;
-background-image: linear-gradient(top,var(--info-color) ,darken,(var(--info-color),20%) );
-background-image: -moz-linear-gradient(top,var(--info-color) ,darken,(var(--info-color),20%) );
-background-image: -webkit-linear-gradient(top,var(--info-color) ,darken,(var(--info-color),20%) );
-background-image: -ms-linear-gradient(top,var(--info-color) ,darken,(var(--info-color),20%) );
-font-size: xx-large;
+background-image: linear-gradient(to top,var(--info-color) ,var(--info-color) );
+background-image: -moz-linear-gradient(to top,var(--info-color) ,var(--info-color) );
+background-image: -webkit-linear-gradient(to top,var(--info-color) ,var(--info-color) );
+background-image: -ms-linear-gradient(to top,var(--info-color) ,var(--info-color) );
+font-size: 1.5em;
 font-weight: bolder;
 color: var(--bg-color);
 border: 1px solid var(--grey-color);
@@ -302,7 +302,7 @@ ul, ol	{
 
 /*  CLASSI  */
 .little {
-font-size: xx-small;
+font-size: 0.5625em;
 }
 
 .center {
@@ -322,7 +322,7 @@ margin-bottom: 0px !important;
 	margin: 0;
 }
 h1.toolbar	{
-	font-size:x-large;	
+	font-size:1.5em;	
 	font-weight: bold;
 	margin-top: 10px;
 	color:var(--bg-color);
