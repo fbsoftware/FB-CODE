@@ -61,6 +61,10 @@ font-size: 1em;
 	width: 30%;
  }
 
+ label.control-label    {
+	@include	label;
+	width: 30%;
+ }
 
 input {
 	color: var(--blue-color);
