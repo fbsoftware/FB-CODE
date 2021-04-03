@@ -22,8 +22,8 @@
 }
 
 /* sfondo e colore dei template */
-.fb-bgcolor-danger {
-	background-color: var(--danger-color);
+.fb-bgcolor-accent {
+	background-color: var(--accent-color);
 	border: 1.5px solid var(--black-color);
 	color: var(--black-color);
 }
@@ -59,7 +59,7 @@
 	color: var(--black-color);
 }
 /* bordi per :hover */
-.fb-bgcolor-danger:hover,
+.fb-bgcolor-accent:hover,
 .fb-bgcolor-primary:hover,
 .fb-bgcolor-success:hover,
 .fb-bgcolor-info:hover,
@@ -71,8 +71,8 @@
 }
 
 /* colore template */
-.fb-color-danger {
-	color: var(--danger-color); 
+.fb-color-accent {
+	color: var(--accent-color); 
 }
 .fb-color-primary {
 	color: var(--primary-color);
