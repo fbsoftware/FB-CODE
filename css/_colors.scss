@@ -22,23 +22,7 @@
 }
 
 /* sfondo e colore dei template */
-.fb-bgcolor-accent {
-	background-color: var(--accent-color);
-	border: 1.5px solid var(--black-color);
-	color: var(--black-color);
-}
 
-.fb-bgcolor-success {
-	background-color: var(--success-color);
-	border: 1.5px solid var(--success-color);
-	color: var(--black-color);
-}
-
-.fb-bgcolor-default {
-	background-color: var(--black-color);
-	border: 1.5px solid var(--black-color);
-	color: var(--black-color);
-}
 .fb-bgcolor-basic {
 	background-color: var(--lightgrey-color);
 	border: 1.5px solid var(--lightgrey-color);
@@ -47,10 +31,7 @@
 /* bordi per :hover */
 .fb-bgcolor-accent:hover,
 .fb-bgcolor-sec:hover,
-.fb-bgcolor-success:hover,
 .fb-bgcolor-pri:hover,
-.fb-bgcolor-pri:hover,
-.fb-bgcolor-default:hover,
 .fb-bgcolor-basic:hover
  {
 	border: 1.5px solid var(--darkgrey-color);
@@ -60,13 +41,8 @@
 .fb-color-accent {
 	color: var(--accent-color); 
 }
-.fb-color-primary {
-	color: var(--primary-color);
-}
-.fb-color-default {
+
+.fb-color-white {
 	color: var(--white-color);
-}
-.fb-color-basic {
-	color: var(--lightgrey-color);
 }
 
