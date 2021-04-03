@@ -1,8 +1,4 @@
 :root {
-  --primary-color: #428bca;
-  --success-color: #5cb85c;
-  --info-color: #5bc0de;
-  --warning-color: #f0ad4e;
   --grey-color: #cccccc;
   --lightgrey-color: #f5f5f5;
   --darkgrey-color: #333333;
@@ -92,21 +88,6 @@
   color: var(--blue-color); }
 
 /* sfondo e colore dei template */
-.fb-bgcolor-accent {
-  background-color: var(--accent-color);
-  border: 1.5px solid var(--black-color);
-  color: var(--black-color); }
-
-.fb-bgcolor-success {
-  background-color: var(--success-color);
-  border: 1.5px solid var(--success-color);
-  color: var(--black-color); }
-
-.fb-bgcolor-default {
-  background-color: var(--black-color);
-  border: 1.5px solid var(--black-color);
-  color: var(--black-color); }
-
 .fb-bgcolor-basic {
   background-color: var(--lightgrey-color);
   border: 1.5px solid var(--lightgrey-color);
@@ -115,10 +96,7 @@
 /* bordi per :hover */
 .fb-bgcolor-accent:hover,
 .fb-bgcolor-sec:hover,
-.fb-bgcolor-success:hover,
 .fb-bgcolor-pri:hover,
-.fb-bgcolor-pri:hover,
-.fb-bgcolor-default:hover,
 .fb-bgcolor-basic:hover {
   border: 1.5px solid var(--darkgrey-color); }
 
@@ -126,14 +104,8 @@
 .fb-color-accent {
   color: var(--accent-color); }
 
-.fb-color-primary {
-  color: var(--primary-color); }
-
-.fb-color-default {
+.fb-color-white {
   color: var(--white-color); }
-
-.fb-color-basic {
-  color: var(--lightgrey-color); }
 
 /*  form  */
 /*  MIXINS  */
@@ -366,7 +338,7 @@ img.img-fit {
   margin-top: 0; }
 
 .panel-default > .panel-heading {
-  background-color: var(--success-color);
+  background-color: var(-fb-bgcolor-pri-color);
   border-color: var(--grey-color); }
 
 .panel-default > .panel-heading + .panel-collapse .panel-body {
@@ -727,7 +699,7 @@ p + p {
   padding-right: 0.1em;
   line-height: 1em;
   font-size: 3.5em;
-  color: var(--success-color); }
+  color: var(-fb-bgcolor-pri-color); }
 
 Pre {
   color: var(--tx-color);
@@ -759,7 +731,7 @@ footer {
   border-radius: 0 0 7px 7px; }
 
 footer a, footer a:hover {
-  color: var(--success-color); }
+  color: var(-fb-bgcolor-pri-color); }
 
 section#corpo {
   border: 1px solid var(--grey-color); }
