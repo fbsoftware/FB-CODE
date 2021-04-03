@@ -196,6 +196,14 @@ label.label30 {
   text-align: right;
   width: 30%; }
 
+label.control-label {
+  float: left;
+  display: inline;
+  margin-right: 10px;
+  line-height: 22px;
+  text-align: right;
+  width: 30%; }
+
 input {
   color: var(--blue-color);
   border: 1px solid var(--grey-color); }
