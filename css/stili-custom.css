@@ -70,8 +70,8 @@
 /*     C O L O R I           */
 .fb-bgcolor-pri {
   /* sfondo e colore dei template */
-  background-color: var(--bg-color);
-  border: 1.5px solid var(--bg-color);
+  background-color: var(--pri-color);
+  border: 1.5px solid var(--pri-color);
   color: var(--tx-color); }
 
 .fb-bgcolor-sec {
@@ -87,17 +87,10 @@
 .blue {
   color: var(--blue-color); }
 
-/* sfondo e colore dei template */
-.fb-bgcolor-basic {
-  background-color: var(--lightgrey-color);
-  border: 1.5px solid var(--lightgrey-color);
-  color: var(--black-color); }
-
 /* bordi per :hover */
 .fb-bgcolor-accent:hover,
 .fb-bgcolor-sec:hover,
-.fb-bgcolor-pri:hover,
-.fb-bgcolor-basic:hover {
+.fb-bgcolor-pri:hover {
   border: 1.5px solid var(--darkgrey-color); }
 
 /* colore template */
