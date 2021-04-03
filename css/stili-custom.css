@@ -1,5 +1,5 @@
 :root {
-  --danger-color: #d9534f;
+  --accent-color: #d9534f;
   --primary-color: #428bca;
   --success-color: #5cb85c;
   --info-color: #5bc0de;
@@ -93,8 +93,8 @@
   color: var(--blue-color); }
 
 /* sfondo e colore dei template */
-.fb-bgcolor-danger {
-  background-color: var(--danger-color);
+.fb-bgcolor-accent {
+  background-color: var(--accent-color);
   border: 1.5px solid var(--black-color);
   color: var(--black-color); }
 
@@ -129,7 +129,7 @@
   color: var(--black-color); }
 
 /* bordi per :hover */
-.fb-bgcolor-danger:hover,
+.fb-bgcolor-accent:hover,
 .fb-bgcolor-primary:hover,
 .fb-bgcolor-success:hover,
 .fb-bgcolor-info:hover,
@@ -139,8 +139,8 @@
   border: 1.5px solid var(--darkgrey-color); }
 
 /* colore template */
-.fb-color-danger {
-  color: var(--danger-color); }
+.fb-color-accent {
+  color: var(--accent-color); }
 
 .fb-color-primary {
   color: var(--primary-color); }
@@ -211,7 +211,7 @@ input {
 input.req {
   color: var(--blue-color);
   background: var(--black-color);
-  border: 1px solid var(--danger-color); }
+  border: 1px solid var(--accent-color); }
 
 input.titolo {
   background: inherit;
@@ -286,7 +286,7 @@ fieldset div {
   padding: 1px 0 2px; }
 
 legend {
-  color: var(--danger-color);
+  color: var(--accent-color);
   border-bottom: none !important;
   margin-bottom: 0px  !important;
   padding: 0 5px;
@@ -458,7 +458,7 @@ ul.nav2 a:hover,
 ul.nav2 a:focus,
 ul.nav2 a:active {
   background-color: var(--lightgrey-color);
-  color: var(--danger-color);
+  color: var(--accent-color);
   text-decoration: none; }
 
 ul.nav2 li:hover ul.liv2 {
