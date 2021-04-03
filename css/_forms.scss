@@ -53,18 +53,15 @@ font-size: 1em;
 
  label    {
 	@include	label;
-	width: 50%;
+	width: 20%;
  }
- 
- label.short {
-	@include	label;
-	width: 10%;
-}
 
- label.wide {
+ label.label30    {
 	@include	label;
-	width: 100%;
-}
+	width: 30%;
+ }
+
+
 input {
 	color: var(--blue-color);
 	border: 1px solid var(--grey-color);
