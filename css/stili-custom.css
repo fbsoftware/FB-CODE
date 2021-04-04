@@ -77,7 +77,7 @@
 .fb-bgcolor-sec {
   background-color: var(--sec-color);
   border: 1.5px solid var(--sec-color);
-  color: var(--tx-color); }
+  color: var(--bg-color); }
 
 .fb-bgcolor-accent {
   background-color: var(--accent-color);
@@ -628,7 +628,8 @@ ul.liv2 > li > a {
   color: var(--accent-color); }
 
 a.close-button:hover {
-  background: var(--pri-color); }
+  background: var(--sec-color);
+  border: 1.5px solid var(--sec-color); }
 
 @media screen and (max-width: 720px) {
   .popup-content {
