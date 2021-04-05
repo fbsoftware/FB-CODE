@@ -892,7 +892,7 @@ ul, ol {
 
 /*  T O O L B A R  */
 .toolbar-color {
-  background: var(--info-color);
+  background: var(--sec-color);
   margin: 0; }
 
 h1.toolbar {
