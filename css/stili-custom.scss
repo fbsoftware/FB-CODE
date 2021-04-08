@@ -9,7 +9,7 @@
 --bg-color: 		#f1faee;
 --pri-color: 		#a8dadc;
 --sec-color: 		#457b9d;
---tx-color: 		#1d3557;	
+--tx-color: 		#1d3557;
 }
 @charset "utf-8" ;
 @import "_decori";
@@ -67,7 +67,7 @@ body.admin	{
 } 
 /* Stile per modificare e sovrascrivere i blockquote di Bootstrap */
 blockquote {
- border-left: 5px solid var(--primary-color);
+ border-left: 5px solid var(--pri-color);
 }
 
 p {
