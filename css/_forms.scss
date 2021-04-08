@@ -71,6 +71,10 @@ input {
 	border: 1px solid var(--grey-color);
 }
 
+input[type='radio']		{
+	border: 1px solid var(--blue-color);
+	background:var(--grey-color);
+}
 input.req {
 	color: var(--blue-color);
 	background: var(--black-color);

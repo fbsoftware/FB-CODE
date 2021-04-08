@@ -157,6 +157,10 @@ input {
   color: var(--blue-color);
   border: 1px solid var(--grey-color); }
 
+input[type='radio'] {
+  border: 1px solid var(--blue-color);
+  background: var(--grey-color); }
+
 input.req {
   color: var(--blue-color);
   background: var(--black-color);
@@ -459,7 +463,7 @@ ul.liv2 > li > a {
   display: block;
   background-color: var(--grey-color);
   padding: 10px 0 0 13px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--pri-color);
   border-radius: 50%; }
 
 .back-to-top {
@@ -684,7 +688,7 @@ body.admin {
 
 /* Stile per modificare e sovrascrivere i blockquote di Bootstrap */
 blockquote {
-  border-left: 5px solid var(--primary-color); }
+  border-left: 5px solid var(--pri-color); }
 
 p {
   text-align: justify;
