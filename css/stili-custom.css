@@ -634,11 +634,9 @@ ul.liv2 > li > a {
   padding-right: 0.5rem; }
 
 .close-button:hover {
-  color: var(--accent-color); }
-
-a.close-button:hover {
-  background: var(--sec-color);
-  border: 1.5px solid var(--sec-color); }
+  color: var(--accent-color);
+  background: transparent !important;
+  border: none !important; }
 
 @media screen and (max-width: 720px) {
   .popup-content {
