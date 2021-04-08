@@ -209,6 +209,9 @@ a:hover {
   background: var(--grey-color);
   /* border: 1px solid var(--grey-color); /*/ }
 
+a.trasp:hover {
+  background: transparent; }
+
 /*   FIELDSET   */
 fieldset {
   background: var(--lightgrey-color);

@@ -19,3 +19,6 @@ color: var(--bg-color);
 a:hover {
 background: var(--grey-color);
 /* border: 1px solid var(--grey-color); /*/}
+a.trasp:hover{
+background: transparent;	
+}
