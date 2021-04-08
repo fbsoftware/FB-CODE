@@ -32,14 +32,12 @@
 	padding-right:0.5rem;
 }
 .close-button:hover {
-	color: var(--accent-color);
-}
+  color: var(--accent-color); 
+  background:transparent !important;
+  border:none !important;
+  }
 
-a.close-button:hover {
-	background: var(--sec-color);
-	border: 1.5px solid var(--sec-color);
 
-}
 @media screen and (max-width: 720px) {
 .popup-content {
 	width:90%;
