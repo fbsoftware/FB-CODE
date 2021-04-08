@@ -212,6 +212,9 @@ a:hover {
 a.trasp:hover {
   background: transparent; }
 
+a.close-button.trasp:hover {
+  background: transparent; }
+
 /*   FIELDSET   */
 fieldset {
   background: var(--lightgrey-color);
