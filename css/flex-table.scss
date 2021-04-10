@@ -1,3 +1,8 @@
+@mixin	td	{
+  white-space: normal;
+  justify-content: left;	
+}
+
 .table {
   display: flex;
   flex-flow: column nowrap;
@@ -15,14 +20,17 @@
   top: 0;
   display: flex;
   font-weight: 700;
-  background-color: var(--darkgrey-color);
 }
 
-.th > .td,
-.tr > .td {
-  white-space: normal;
-  justify-content: left;
+.th .td
+{
+@include td;
+  background-color: var(--darkgrey-color);
   color: var(--white-color);
+}
+
+.tr .td {
+@include td;
 }
 
 .tr {

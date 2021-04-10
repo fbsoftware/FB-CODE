@@ -13,14 +13,17 @@
   position: sticky;
   top: 0;
   display: flex;
-  font-weight: 700;
-  background-color: var(--darkgrey-color); }
+  font-weight: 700; }
 
-.th > .td,
-.tr > .td {
+.th .td {
   white-space: normal;
   justify-content: left;
+  background-color: var(--darkgrey-color);
   color: var(--white-color); }
+
+.tr .td {
+  white-space: normal;
+  justify-content: left; }
 
 .tr {
   width: 100%;
