@@ -584,7 +584,8 @@ ul.liv2 > li > a {
 
 .tr .td {
   white-space: normal;
-  justify-content: left; }
+  justify-content: left;
+  color: var(--darkgrey-color); }
 
 .tr {
   width: 100%;
