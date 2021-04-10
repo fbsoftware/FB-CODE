@@ -14,12 +14,13 @@
   top: 0;
   display: flex;
   font-weight: 700;
-  background-color: var(--grey-color); }
+  background-color: var(--darkgrey-color); }
 
 .th > .td,
 .tr > .td {
   white-space: normal;
-  justify-content: left; }
+  justify-content: left;
+  color: var(--white-color); }
 
 .tr {
   width: 100%;
