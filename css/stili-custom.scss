@@ -1,3 +1,15 @@
+body[data-theme="light"] 	{
+--pri-color: 		#a8dadc;
+--sec-color: 		#457b9d;
+--bg-color: 		#f1faee;
+--tx-color: 		#1d3557;
+}
+body,body[data-theme="dark"] {
+  --color-text-primary: #e3e3e3;
+  --color-text-secondary: #ff6b00;
+  --color-bg-primary: #15232d;
+
+}
 :root	{
 --grey-color:		#cccccc;	
 --lightgrey-color: 	#f5f5f5;	
@@ -6,10 +18,7 @@
 --black-color: 		#000000;
 --white-color: 		#FFFFFF;
 --accent-color: 	#e63946;
---bg-color: 		#f1faee;
---pri-color: 		#a8dadc;
---sec-color: 		#457b9d;
---tx-color: 		#1d3557;
+
 }
 @charset "utf-8" ;
 @import "_decori";
