@@ -76,6 +76,12 @@ body, body[data-theme="dark"] {
   border-radius: 50%; }
 
 /*     C O L O R I           */
+.fb-bgcolor-content {
+  /* sfondo e colore dei template */
+  background-color: var(--bg-color);
+  border: 1.5px solid var(--bg-color);
+  color: var(--tx-color); }
+
 .fb-bgcolor-pri {
   /* sfondo e colore dei template */
   background-color: var(--pri-color);
