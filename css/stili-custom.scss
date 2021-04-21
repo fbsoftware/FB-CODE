@@ -82,6 +82,7 @@ blockquote {
 p {
 text-align: justify;
 color: var(--tx-color);
+background: var(--bg-color);	
 font-size: 1em;
 font-weight:400;
 max-width:60ch;
@@ -96,7 +97,7 @@ float: left;
 padding-right: 0.1em;
 line-height: 1em;
 font-size: 3.5em;
-color: var(-fb-bgcolor-pri-color);
+color: var(--tx-color);
 }
 
 Pre {
