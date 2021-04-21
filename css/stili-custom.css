@@ -5,9 +5,10 @@ body[data-theme="light"] {
   --tx-color: #1d3557; }
 
 body, body[data-theme="dark"] {
-  --color-text-primary: #e3e3e3;
-  --color-text-secondary: #ff6b00;
-  --color-bg-primary: #15232d; }
+  --pri-color: #a8dadc;
+  --sec-color: #457b9d;
+  --bg-color: #333333;
+  --tx-color: #f1faee; }
 
 :root {
   --grey-color: #cccccc;
