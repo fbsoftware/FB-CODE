@@ -7,7 +7,7 @@ body[data-theme="light"] {
 body, body[data-theme="dark"] {
   --pri-color: #a8dadc;
   --sec-color: #457b9d;
-  --bg-color: #333333;
+  --bg-color: #1d3557;
   --tx-color: #f1faee; }
 
 :root {
