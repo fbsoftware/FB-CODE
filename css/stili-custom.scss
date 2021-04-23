@@ -1,14 +1,14 @@
 body[data-theme="light"] 	{
---pri-color: 		#a8dadc;
---sec-color: 		#457b9d;
---bg-color: 		#f1faee;
---tx-color: 		#1d3557;
+--pri-color: 		#bc6c25;
+--sec-color: 		#dda15e;
+--bg-color: 		#fefae0;
+--tx-color: 		#283618;
 }
 body,body[data-theme="dark"] {
---pri-color: 		#a8dadc;
---sec-color: 		#457b9d;
---bg-color: 		#1d3557;
---tx-color: 		#f1faee;
+--pri-color: 		#bc6c25;
+--sec-color: 		#dda15e;
+--bg-color: 		#283618;
+--tx-color: 		#fefae0;
 }
 :root	{
 --grey-color:		#cccccc;	
