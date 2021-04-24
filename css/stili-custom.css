@@ -10,7 +10,7 @@ body[data-theme="light"] {
   --bg-color: #fefae0;
   --tx-color: #283618; }
 
-body, body[data-theme="dark"] {
+body[data-theme="dark"] {
   --pri-color: #bc6c25;
   --sec-color: #dda15e;
   --bg-color: #283618;
@@ -717,8 +717,8 @@ blockquote {
 
 p {
   text-align: justify;
-  color: var(--tx-color);
-  background: var(--bg-color);
+  /*color: var(--tx-color);
+  background: var(--bg-color);	*/
   font-size: 1em;
   font-weight: 400;
   max-width: 60ch;
