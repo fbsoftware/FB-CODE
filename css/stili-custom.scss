@@ -1,18 +1,24 @@
 body[data-theme="admin"] 	{
 --pri-color: 		#3b706e;
 --sec-color: 		#19b3ad;
+--tx-pri-color:		#eeeeee;
+--tx-sec-color:		#eeeeee;
 --bg-color: 		#ffffff;
 --tx-color: 		#000000;
 }
 body[data-theme="light"] 	{
 --pri-color: 		#bc6c25;
 --sec-color: 		#dda15e;
+--tx-pri-color:		#eeeeee;
+--tx-sec-color:		#333333;
 --bg-color: 		#fefae0;
 --tx-color: 		#283618;
 }
 body[data-theme="dark"] {
 --pri-color: 		#bc6c25;
 --sec-color: 		#dda15e;
+--tx-pri-color:		#eeeeee;
+--tx-sec-color:		#333333;
 --bg-color: 		#283618;
 --tx-color: 		#fefae0;
 }

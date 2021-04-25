@@ -1,18 +1,24 @@
 body[data-theme="admin"] {
   --pri-color: #3b706e;
   --sec-color: #19b3ad;
+  --tx-pri-color: #eeeeee;
+  --tx-sec-color: #eeeeee;
   --bg-color: #ffffff;
   --tx-color: #000000; }
 
 body[data-theme="light"] {
   --pri-color: #bc6c25;
   --sec-color: #dda15e;
+  --tx-pri-color: #eeeeee;
+  --tx-sec-color: #333333;
   --bg-color: #fefae0;
   --tx-color: #283618; }
 
 body[data-theme="dark"] {
   --pri-color: #bc6c25;
   --sec-color: #dda15e;
+  --tx-pri-color: #eeeeee;
+  --tx-sec-color: #333333;
   --bg-color: #283618;
   --tx-color: #fefae0; }
 
@@ -92,35 +98,32 @@ body[data-theme="dark"] {
   /* sfondo e colore header-footer (scuro) */
   background-color: var(--pri-color);
   border: 1.5px solid var(--pri-color);
-  color: var(--tx-color); }
+  color: var(--tx-pri-color); }
 
 .fb-secondary {
   /* sfondo e colore section (chiaro) */
   background-color: var(--sec-color);
   border: 1.5px solid var(--sec-color);
-  color: var(--bg-color); }
+  color: var(--tx-sec-color); }
 
 .fb-accent {
   /* sfondo e colore accent  */
   background-color: var(--accent-color);
   border: 1.5px solid var(--accent-color);
-  color: var(--bg-color); }
+  color: var(--tx-accent-color); }
 
 .fb-button {
-  /* sfondo e colore accent  */
-  background-color: var(--accent-color);
-  border: 1.5px solid var(--accent-color);
-  color: var(--bg-color); }
-
-.blue {
-  color: var(--blue-color); }
+  /* sfondo e colore button  */
+  background-color: var(--button-color);
+  border: 1.5px solid var(--button-color);
+  color: var(--tx-button-color); }
 
 /* bordi per :hover */
 .fb-accent:hover,
 .fb-secondary:hover,
 .fb-primary:hover,
 .fb-button {
-  border: 1.5px solid var(--darkgrey-color); }
+  border: 1px solid var(--darkgrey-color); }
 
 /* colore template */
 .fb-color-accent {
