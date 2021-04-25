@@ -2,7 +2,7 @@ body[data-theme="admin"] {
   --pri-color: #3b706e;
   --sec-color: #19b3ad;
   --bg-color: #ffffff;
-  --tx-color: #ffffff; }
+  --tx-color: #000000; }
 
 body[data-theme="light"] {
   --pri-color: #bc6c25;
@@ -82,31 +82,31 @@ body[data-theme="dark"] {
   border-radius: 50%; }
 
 /*     C O L O R I           */
-.fb-bgcolor-content {
+.fb-content {
   /* sfondo e colore dei testi */
   background-color: var(--bg-color);
   border: 1.5px solid var(--bg-color);
   color: var(--tx-color); }
 
-.fb-bgcolor-pri {
+.fb-primary {
   /* sfondo e colore header-footer (scuro) */
   background-color: var(--pri-color);
   border: 1.5px solid var(--pri-color);
   color: var(--tx-color); }
 
-.fb-bgcolor-sec {
+.fb-secondary {
   /* sfondo e colore section (chiaro) */
   background-color: var(--sec-color);
   border: 1.5px solid var(--sec-color);
   color: var(--bg-color); }
 
-.fb-bgcolor-accent {
+.fb-accent {
   /* sfondo e colore accent  */
   background-color: var(--accent-color);
   border: 1.5px solid var(--accent-color);
   color: var(--bg-color); }
 
-.fb-bgcolor-button {
+.fb-button {
   /* sfondo e colore accent  */
   background-color: var(--accent-color);
   border: 1.5px solid var(--accent-color);
@@ -116,10 +116,10 @@ body[data-theme="dark"] {
   color: var(--blue-color); }
 
 /* bordi per :hover */
-.fb-bgcolor-accent:hover,
-.fb-bgcolor-sec:hover,
-.fb-bgcolor-pri:hover,
-.fb-bgcolor-button {
+.fb-accent:hover,
+.fb-secondary:hover,
+.fb-primary:hover,
+.fb-button {
   border: 1.5px solid var(--darkgrey-color); }
 
 /* colore template */
@@ -390,7 +390,7 @@ img.img-fit {
   margin-top: 0; }
 
 .panel-default > .panel-heading {
-  background-color: var(-fb-bgcolor-pri-color);
+  background-color: var(-fb-primary-color);
   border-color: var(--grey-color); }
 
 .panel-default > .panel-heading + .panel-collapse .panel-body {
@@ -792,7 +792,7 @@ footer {
   border-radius: 0 0 7px 7px; }
 
 footer a, footer a:hover {
-  color: var(-fb-bgcolor-pri-color); }
+  color: var(-fb-primary-color); }
 
 section#corpo {
   border: 1px solid var(--grey-color); }
