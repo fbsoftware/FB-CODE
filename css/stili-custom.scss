@@ -2,7 +2,7 @@ body[data-theme="admin"] 	{
 --pri-color: 		#3b706e;
 --sec-color: 		#19b3ad;
 --bg-color: 		#ffffff;
---tx-color: 		#ffffff;
+--tx-color: 		#000000;
 }
 body[data-theme="light"] 	{
 --pri-color: 		#bc6c25;
@@ -142,7 +142,7 @@ footer {
 }
 
 footer a, footer a:hover {
-	color: var(-fb-bgcolor-pri-color);
+	color: var(-fb-primary-color);
 }
 
 section#corpo	{
