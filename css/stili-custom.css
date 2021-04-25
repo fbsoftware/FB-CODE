@@ -736,10 +736,9 @@ body {
 body.admin {
   height: 100vh;
   min-height: calc(100vh - 10%);
-  bottom: 0;
   position: absolute;
   margin: 10px;
-  width: 99vw; }
+  width: 98vw; }
 
 /* Stile per modificare e sovrascrivere i blockquote di Bootstrap */
 blockquote {
@@ -747,8 +746,6 @@ blockquote {
 
 p {
   text-align: justify;
-  /*color: var(--tx-color);
-  background: var(--bg-color);	*/
   font-size: 1em;
   font-weight: 400;
   max-width: 60ch;
@@ -773,8 +770,8 @@ Pre {
 hr {
   color: var(--tx-color); }
 
+/* HR senza margini verticali  */
 hr.slim {
-  /* HR senza margini verticali  */
   margin-bottom: 0px;
   margin-top: 0px;
   background-color: var(--grey-color);
