@@ -154,7 +154,7 @@ body[data-theme="dark"] {
 .fb-accent:hover,
 .fb-secondary:hover,
 .fb-primary:hover,
-.fb-button {
+.fb-button:hover {
   border: 1px solid var(--darkgrey-color);
 }
 
