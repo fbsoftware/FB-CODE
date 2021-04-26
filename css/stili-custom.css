@@ -944,7 +944,8 @@ ul, ol {
 
 .marchio {
   height: 50px;
-  float: left; }
+  float: left;
+  margin: 0.25rem; }
 
 .alert {
   /*  alert senza margini  */
