@@ -4,7 +4,9 @@ body[data-theme="admin"] {
   --tx-pri-color: #eeeeee;
   --tx-sec-color: #eeeeee;
   --bg-color: #ffffff;
-  --tx-color: #000000; }
+  --tx-color: #000000;
+  --button-color: #000000;
+  --tx-button-color: #ffffff; }
 
 body[data-theme="light"] {
   --pri-color: #bc6c25;
@@ -12,7 +14,9 @@ body[data-theme="light"] {
   --tx-pri-color: #eeeeee;
   --tx-sec-color: #333333;
   --bg-color: #fefae0;
-  --tx-color: #283618; }
+  --tx-color: #283618;
+  --button-color: #000000;
+  --tx-button-color: #ffffff; }
 
 body[data-theme="dark"] {
   --pri-color: #bc6c25;
@@ -20,7 +24,9 @@ body[data-theme="dark"] {
   --tx-pri-color: #eeeeee;
   --tx-sec-color: #333333;
   --bg-color: #283618;
-  --tx-color: #fefae0; }
+  --tx-color: #fefae0;
+  --button-color: #000000;
+  --tx-button-color: #ffffff; }
 
 :root {
   --grey-color: #cccccc;
@@ -802,11 +808,8 @@ header {
   width: 100%;
   margin: 0;
   height: 65px;
-  background: var(--sec-color);
   font-size: 1.5em;
   font-weight: bolder;
-  color: var(--bg-color);
-  border: 1px solid var(--grey-color);
   border-radius: 7px 7px 0 0; }
 
 nav {
@@ -826,55 +829,11 @@ article {
 
 aside.left {
   float: left;
-  width: 0%;
-  background: transparent;
-  color: var(--tx-color); }
+  width: 0%; }
 
 aside.right {
   float: left;
-  width: 0%;
-  background: transparent;
-  color: var(--tx-color); }
-
-/*   CLASSI DIV   */
-/*
-div.widget {
-	float: left;
-	margin: 20px;
-	border: 2px solid var(--grey-color);
-	border-radius: 5px;
-	background: var(--grey-color);
-     width: 100%;
-}
-div.widget:hover {
-  	box-shadow: 3px 5px 10px rgba(0,0,0,0.75);       
-	border-bottom-right-radius: 70% 25px;
-     transition-property: border-bottom-right-radius;
-     transition-duration: .5s;
-     background: var(--grey-color);
-}
-*/
-div.primary {
-  background: linear-gradient(#337ab7, rgba(191, 225, 252, 0.45)); }
-
-div.fb-container-sleek {
-  padding: 0px;
-  margin: 0px; }
-
-div.footer {
-  background: var(--grey-color);
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin-bottom: 20px;
-  font-size: large;
-  line-height: inherit;
-  color: var(--darkgrey-color);
-  border: 0;
-  border-bottom: 1px solid var(--grey-color); }
-
-div.justify {
-  text-align: justify; }
+  width: 0%; }
 
 ul, ol {
   margin-left: 30px; }
@@ -889,18 +848,11 @@ ul, ol {
   padding: 7px 10px;
   border-bottom: 1px solid var(--grey-color); }
 
-.glyphicon-tondo {
-  top: 8px;
-  left: 4px; }
-
 .fa-glyph-center {
   display: block !important;
   text-align: center; }
 
 /* --------------------------------------------- */
-.well {
-  margin-top: 10px; }
-
 .container {
   width: auto;
   padding: 0 15px; }
