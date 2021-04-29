@@ -129,6 +129,10 @@ body[data-theme="red"] {
   border-radius: 50%;
 }
 
+.fb-upper {
+  font-transform: uppercase;
+}
+
 /*     C O L O R I           */
 .fb-content {
   /* sfondo e colore dei testi */
