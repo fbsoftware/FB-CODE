@@ -848,8 +848,8 @@ ul.liv2 > li > a {
 }
 
 .close-button:hover {
-  color: var(--accent-color);
-  background: transparent !important;
+  /* color: var(--accent-color); 
+   background:transparent !important;*/
   border: none !important;
 }
 
