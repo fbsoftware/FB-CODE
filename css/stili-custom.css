@@ -130,7 +130,7 @@ body[data-theme="red"] {
 }
 
 .fb-upper {
-  font-transform: uppercase;
+  text-transform: uppercase;
 }
 
 /*     C O L O R I           */
