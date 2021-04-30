@@ -1,4 +1,5 @@
-body[data-theme="admin"] 	
+@import "colori-std.css";
+/*body[data-theme="admin"] 	
 {
 --pri-color: 		  ;
 --sec-color: 		  ;
@@ -8,7 +9,7 @@ body[data-theme="admin"]
 --tx-color: 		  ;
 --button-color:		  ;
 --tx-button-color:	  ;
-/*
+
 --pri-color: 		#3b706e;
 --sec-color: 		#19b3ad;
 --tx-pri-color:		#eeeeee;
@@ -24,8 +25,8 @@ body[data-theme="admin"]
 --bg-color: 		<?php echo TMP::$tbg_color; ?>;
 --tx-color: 		<?php echo TMP::$tx_color; ?>;
 --button-color:		<?php echo TMP::$tbutton_color; ?>;
---tx-button-color:	<?php echo TMP::$tx_button_color; ?>;*/
-}
+--tx-button-color:	<?php echo TMP::$tx_button_color; ?>;
+}*/
 body[data-theme="light"] 	
 {
 --pri-color: 		#bc6c25;
