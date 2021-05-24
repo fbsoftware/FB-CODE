@@ -868,7 +868,6 @@ body.admin {
   width: 98vw;
 }
 
-/* Stile per modificare e sovrascrivere i blockquote di Bootstrap */
 blockquote {
   border-left: 5px solid var(--pri-color);
 }
@@ -879,11 +878,16 @@ p {
   font-weight: 400;
   max-width: 60ch;
   line-height: 1.25em;
+  padding: 0 1rem;
 }
 
 /* testo indentato */
 p + p {
   text-indent: 1.5em;
+}
+
+p:last-child {
+  padding-bottom: 1rem;
 }
 
 .p:first-letter {
