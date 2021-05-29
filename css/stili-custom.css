@@ -126,11 +126,16 @@
   color: var(--tx-button-color);
 }
 
+.fb-button:hover {
+  background-color: var(--tx-button-color);
+  border: 1px solid var(--tx-button-color);
+  color: var(--button-color);
+}
+
 /* bordi per :hover */
 .fb-accent:hover,
 .fb-secondary:hover,
-.fb-primary:hover,
-.fb-button:hover {
+.fb-primary:hover {
   border: 1px solid var(--darkgrey-color);
 }
 
