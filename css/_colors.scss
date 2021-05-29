@@ -2,26 +2,26 @@
 .fb-content {
 /* sfondo e colore dei testi */
 	background-color: var(--bg-color);
-	border: 1px solid var(--bg-color);
+	/*border: 1px solid var(--bg-color);*/
 	color: var(--tx-color);
 }
 .fb-primary {
 /* sfondo e colore header-footer (scuro) */
 	background-color: var(--pri-color);
-	border: 1px solid var(--pri-color);
+	/*border: 1px solid var(--pri-color);*/
 	color: var(--tx-pri-color);
 }
 .fb-secondary {
 /* sfondo e colore section (chiaro) */	
 	background-color: var(--sec-color);
-	border: 1px solid var(--sec-color);
+	/*border: 1px solid var(--sec-color);*/
 	color: var(--tx-sec-color);
 }
 
 .fb-accent {
 /* sfondo e colore accent  */	
 	background-color: var(--accent-color);
-	border: 1px solid var(--accent-color);
+	/*border: 1px solid var(--accent-color);*/
 	color: var(--tx-accent-color);
 }
 
@@ -33,7 +33,7 @@
 }
 .fb-button:hover	{
 	background-color: var(--tx-button-color);
-	border: 1px solid var(--tx-button-color);
+	/*border: 1px solid var(--tx-button-color);*/
 	color: var(--button-color);	
 }
 /* bordi per :hover */
