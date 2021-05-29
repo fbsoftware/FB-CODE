@@ -286,22 +286,22 @@ a {
   /*display:block;*/
 }
 
+/*
 a:link {
-  color: var(--bg-color);
+color: var(--bg-color);
 }
 
 a:active {
-  color: var(--bg-color);
+color: var(--bg-color);
 }
 
 a:visited {
-  color: var(--bg-color);
+color: var(--bg-color);
 }
 
 a:hover {
-  background: var(--grey-color);
-}
-
+background: var(--grey-color);
+}*/
 a.trasp:hover,
 a.close-button.trasp:hover {
   background: transparent;
