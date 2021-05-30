@@ -22,8 +22,12 @@
 }
 
 /* altezze  */
-.fb-h80 {
+.fb-hv80 {
   height: 80vh;
+}
+
+.fb-hp150 {
+  height: 150px;
 }
 
 /* margini */
@@ -432,7 +436,6 @@ img.img-h300 {
 img.img-fit {
   width: 100%;
   object-fit: cover;
-  height: 150px;
 }
 
 /* Stili per sovrascrivere e modificare il componente Accordion/collapse di Bootstrap */
