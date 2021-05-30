@@ -136,7 +136,7 @@
 .fb-accent:hover,
 .fb-secondary:hover,
 .fb-primary:hover {
-  /*border: 1px solid var(--darkgrey-color);*/
+  border: 1px solid var(--darkgrey-color);
 }
 
 /* colore template */
@@ -432,6 +432,7 @@ img.img-h300 {
 img.img-fit {
   width: 100%;
   object-fit: cover;
+  height: 150px;
 }
 
 /* Stili per sovrascrivere e modificare il componente Accordion/collapse di Bootstrap */
