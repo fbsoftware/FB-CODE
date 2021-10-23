@@ -896,7 +896,7 @@ h1.toolbar {
   font-size: 1.5em;
   font-weight: bold;
   margin-top: 10px;
-  color: var(--bg-color); }
+  color: var(--tx-color); }
 
 /*   ID   */
 #wrapp {
