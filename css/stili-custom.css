@@ -888,7 +888,7 @@ ul, ol {
 
 /*  T O O L B A R  */
 .toolbar-color {
-  background: var(--sec-color);
+  background: var(--pri-color);
   margin: 0; }
 
 h1.toolbar {
