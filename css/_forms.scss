@@ -68,17 +68,17 @@ font-size: 1em;
 
 input {
 	color: var(--blue-color);
-	border: 1px solid var(--grey-color);
+	border: 2px solid var(--grey-color);
 }
 
 input[type='radio']		{
-	border: 1px solid var(--blue-color);
+	border: 2px solid var(--blue-color);
 	background:var(--grey-color);
 }
 input.req {
 	color: var(--blue-color);
 	background: var(--black-color);
-	border: 1px solid var(--accent-color);
+	border: 2px solid var(--accent-color);
 }
 input.titolo {
 	background: inherit;
@@ -105,5 +105,5 @@ button.nav	{
 }
 button:hover {
 background: var(--lightgrey-color);
-/*  border: 1px solid var(--lightgrey-color); */
+border: 2px solid var(--lightgrey-color); 
 }

@@ -77,45 +77,43 @@
 .fb-content {
   /* sfondo e colore dei testi */
   background-color: var(--bg-color);
-  /*border: 1px solid var(--bg-color);*/
+  border: 2px solid var(--bg-color);
   color: var(--tx-color); }
 
 .fb-primary {
   /* sfondo e colore header-footer (scuro) */
   background-color: var(--pri-color);
-  /*border: 1px solid var(--pri-color);*/
+  border: 2px solid var(--pri-color);
   color: var(--tx-pri-color); }
 
 .fb-secondary {
   /* sfondo e colore section (chiaro) */
   background-color: var(--sec-color);
-  /*border: 1px solid var(--sec-color);*/
+  border: 2px solid var(--sec-color);
   color: var(--tx-sec-color); }
 
 .fb-accent {
   /* sfondo e colore accent  */
   background-color: var(--accent-color);
-  /*border: 1px solid var(--accent-color);*/
-  color: var(--tx-accent-color);
-  border-width: 0;
-  /* sovrascrive default browser */ }
+  border: 2px solid var(--accent-color);
+  color: var(--tx-accent-color); }
 
 .fb-button {
   /* sfondo e colore button  */
   background-color: var(--button-color);
-  /*	border: 1px solid var(--button-color); */
+  border: 2px solid var(--button-color);
   color: var(--tx-button-color); }
 
 .fb-button:hover {
   background-color: var(--tx-button-color);
-  /*border: 1px solid var(--tx-button-color);*/
+  border: 2px solid var(--tx-button-color);
   color: var(--button-color); }
 
 /* bordi per :hover */
 .fb-accent:hover,
 .fb-secondary:hover,
 .fb-primary:hover {
-  /* border: 1px solid var(--darkgrey-color) */ }
+  border: 2px solid var(--darkgrey-color); }
 
 /* colore template */
 .fb-color-accent {
@@ -197,16 +195,16 @@ label.control-label {
 
 input {
   color: var(--blue-color);
-  border: 1px solid var(--grey-color); }
+  border: 2px solid var(--grey-color); }
 
 input[type='radio'] {
-  border: 1px solid var(--blue-color);
+  border: 2px solid var(--blue-color);
   background: var(--grey-color); }
 
 input.req {
   color: var(--blue-color);
   background: var(--black-color);
-  border: 1px solid var(--accent-color); }
+  border: 2px solid var(--accent-color); }
 
 input.titolo {
   background: inherit;
@@ -231,7 +229,7 @@ button.nav {
 
 button:hover {
   background: var(--lightgrey-color);
-  /*  border: 1px solid var(--lightgrey-color); */ }
+  border: 2px solid var(--lightgrey-color); }
 
 /* LINK */
 a {
@@ -787,7 +785,7 @@ footer a, footer a:hover {
   color: var(-fb-primary-color); }
 
 section#corpo {
-  border: 1px solid var(--grey-color); }
+  border: 2px solid var(--grey-color); }
 
 header {
   float: left;
@@ -831,7 +829,7 @@ ul, ol {
 
 .dropdown-menu > li > a {
   padding: 7px 10px;
-  border-bottom: 1px solid var(--grey-color); }
+  border-bottom: 2px solid var(--grey-color); }
 
 .fa-glyph-center {
   display: block !important;
@@ -853,7 +851,7 @@ ul, ol {
 
 /*       BORDO           */
 .bordato {
-  border: 1px solid; }
+  border: 2px solid; }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: var(--lightgrey-color); }
