@@ -23,6 +23,7 @@
 	background-color: var(--accent-color);
 	/*border: 1px solid var(--accent-color);*/
 	color: var(--tx-accent-color);
+	border-width: 0;   /* sovrascrive default browser */
 }
 
 .fb-button {
