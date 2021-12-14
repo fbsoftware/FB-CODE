@@ -100,14 +100,13 @@
 
 .fb-button {
   /* sfondo e colore button  */
-  background-color: var(--button-color);
-  border: 2px solid var(--button-color);
-  color: var(--tx-button-color); }
+  background-color: #ffffff;
+  border: 1px solid #bbbbbb;
+  color: #333333; }
 
 .fb-button:hover {
-  background-color: var(--tx-button-color);
-  border: 2px solid var(--tx-button-color);
-  color: var(--button-color); }
+  background-color: #e6e6e6;
+  border: 1px solid #adadad; }
 
 /* bordi per :hover */
 .fb-accent:hover,
@@ -229,7 +228,7 @@ button.nav {
 
 button:hover {
   background: var(--lightgrey-color);
-  border: 2px solid var(--lightgrey-color); }
+  border: 1px solid var(--lightgrey-color); }
 
 /* LINK */
 a {
