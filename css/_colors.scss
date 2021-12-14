@@ -12,29 +12,28 @@
 	color: var(--tx-pri-color);
 }
 .fb-secondary {
-/* sfondo e colore section (chiaro) */	
+/* sfondo e colore section (chiaro) */
 	background-color: var(--sec-color);
 	border: 2px solid var(--sec-color);
 	color: var(--tx-sec-color);
 }
 
 .fb-accent {
-/* sfondo e colore accent  */	
+/* sfondo e colore accent  */
 	background-color: var(--accent-color);
 	border: 2px solid var(--accent-color);
 	color: var(--tx-accent-color);
 }
 
 .fb-button {
-/* sfondo e colore button  */	
-	background-color: var(--button-color);
-	border: 2px solid var(--button-color); 
-	color: var(--tx-button-color);
+/* sfondo e colore button  */
+	background-color: #ffffff;
+	border: 1px solid #bbbbbb;
+	color: #333333;
 }
 .fb-button:hover	{
-	background-color: var(--tx-button-color);
-	border: 2px solid var(--tx-button-color);
-	color: var(--button-color);	
+	background-color: #e6e6e6;
+	border: 1px solid #adadad;
 }
 /* bordi per :hover */
 .fb-accent:hover,
@@ -46,7 +45,7 @@
 
 /* colore template */
 .fb-color-accent {
-	color: var(--accent-color); 
+	color: var(--accent-color);
 }
 
 .fb-color-white {
@@ -61,7 +60,7 @@
 	color: var(--blue-color);
 }
 .fb-color-grey {
-	color: var(--grey-color); 
+	color: var(--grey-color);
 }
 .fb-color-lightgrey {
 	color: var(--lightgrey-color);
@@ -70,8 +69,5 @@
 	color: var(--darkgrey-color);
 }
 .fb-color-grey {
-	color: var(--grey-color); 
+	color: var(--grey-color);
 }
-
-
-
