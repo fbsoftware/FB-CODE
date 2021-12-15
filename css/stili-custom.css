@@ -112,8 +112,7 @@
 .fb-accent:hover,
 .fb-secondary:hover,
 .fb-primary:hover {
-  /*	 border: 2px solid var(--darkgrey-color);*/
-  border: none; }
+  border: 2px solid var(--lightgrey-color); }
 
 /* colore template */
 .fb-color-accent {
