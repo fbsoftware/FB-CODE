@@ -892,7 +892,7 @@ ul, ol {
 /*  T O O L B A R  */
 .toolbar-color {
   background: var(--pri-color);
-  margin: 0; }
+  margin: -2px; }
 
 h1.toolbar {
   font-size: 1.5em;
