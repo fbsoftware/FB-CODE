@@ -853,18 +853,11 @@ ul, ol {
   margin-bottom: 5px; }
 
 /*       BORDO           */
-.bordato {
-  border: 2px solid; }
-
 .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: var(--lightgrey-color); }
 
 .row-center {
   margin: 0 auto; }
-
-.no-padd {
-  padding-left: 0px !important;
-  padding-right: 0px !important; }
 
 /* autocomplete scrollabile */
 .ui-autocomplete {
