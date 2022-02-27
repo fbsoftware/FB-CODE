@@ -25,10 +25,10 @@
 
 /*   ELEMENTI HTML  */
 *	     {	box-sizing:border-box;
-			-moz-box-sizing:border-box;
-			-webkit-box-sizing:border-box;
-			padding:0;
-			margin:0;}
+					-moz-box-sizing:border-box;
+					-webkit-box-sizing:border-box;
+					padding:0;
+					margin:0;}
 
 h1,h2,h3,p	{margin: 0 !important;
 			padding: 0.25em;}
@@ -206,9 +206,6 @@ ul, ol	{
 }
 /*       BORDO           */
 
-.bordato {
-	border: 2px solid;
-}
 .table-striped>tbody>tr:nth-of-type(odd) {
 	background-color: var(--lightgrey-color);
 }
@@ -216,12 +213,6 @@ ul, ol	{
 .row-center {
 	margin: 0 auto;
 }
-
-.no-padd {
-	padding-left: 0px !important;
-	padding-right: 0px !important;
-}
-
 
 /* autocomplete scrollabile */
 .ui-autocomplete {
