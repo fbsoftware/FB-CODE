@@ -33,21 +33,20 @@
 }
 .fb-button:hover	{
 	background-color: #e6e6e6;
-	border: 1px solid #adadad;
+	border: 1px solid #bbbbbb;
 }
 /* bordi per :hover */
-.fb-accent:hover,
+.fb-accent:hover 	{
+	background-color: #e6e6e6;
+	border: 1px solid #bbbbbb;
+}
 .fb-secondary:hover,
 .fb-primary:hover
  {
 /*	 border: 1px solid var(--grey-color);*/
 }
 
-/* colore template */
-.fb-color-accent {
-	color: var(--accent-color);
-}
-
+/* colori standard */
 .fb-color-white {
 	color: var(--white-color);
 }
