@@ -9,8 +9,6 @@
 }
 
 @charset "utf-8" ;
-@import "_decori";
-@import "_colors";
 @import "_forms";
 @import "_link";
 @import "_fieldset";
@@ -22,6 +20,8 @@
 @import "flex";
 @import "flex-table";
 @import "_popup";
+@import "_decori";
+@import "_colors";
 
 /*   ELEMENTI HTML  */
 *	     {	box-sizing:border-box;
