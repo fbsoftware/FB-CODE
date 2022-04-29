@@ -110,19 +110,17 @@
   border: 1px solid #bbbbbb;
   color: #333333; }
 
-/*
-.fb-button:hover	{
-	background-color: #e6e6e6;
-	border: 1px solid #bbbbbb;
-}
-*/
+.fb-button:hover {
+  background-color: #e6e6e6;
+  border: 1px solid #bbbbbb; }
+
 /* bordi per :hover */
 .fb-accent:hover {
   background-color: #e6e6e6;
   border: 1px solid #bbbbbb; }
 
-.fb-secondary:hover,
-.fb-primary:hover {
+button.fb-secondary:hover,
+button.fb-primary:hover {
   opacity: 0.5; }
 
 /* colori standard */
