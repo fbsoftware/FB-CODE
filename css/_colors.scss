@@ -42,8 +42,8 @@
 	background-color: #e6e6e6;
 	border: 1px solid #bbbbbb;
 }
-button.fb-secondary:hover,
-button.fb-primary:hover
+.fb-secondary:hover,
+.fb-primary:hover
  {
 opacity: 0.5;
 }
@@ -63,6 +63,7 @@ opacity: 0.5;
 .fb-color-grey {
 	color: var(--grey-color);
 }
+
 .fb-color-lightgrey {
 	color: var(--lightgrey-color);
 }
