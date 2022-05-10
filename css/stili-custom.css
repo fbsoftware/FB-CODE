@@ -5,7 +5,8 @@
   --blue-color: #0000FF;
   --black-color: #000000;
   --white-color: #FFFFFF;
-  --accent-color: #e63946; }
+  --accent-color: #e63946;
+  --tx-accent-color: #dddddd; }
 
 /*  form  */
 /*  MIXINS  */
@@ -666,7 +667,8 @@ ul.liv2 > li > a {
 /* bordi per :hover */
 .fb-accent:hover {
   background-color: #e6e6e6;
-  border: 1px solid #bbbbbb; }
+  border: 1px solid #bbbbbb;
+  color: #333333; }
 
 .fb-secondary:hover,
 .fb-primary:hover {
