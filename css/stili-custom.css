@@ -21,7 +21,7 @@ form {
   color: var(--darkgrey-color);
   border-radius: 0; }
 
-form login {
+form.login {
   margin: 0 50% 0 50%; }
 
 form.bottoni {
