@@ -735,8 +735,9 @@ body.admin {
   height: 100vh;
   min-height: calc(100vh - 10%);
   position: absolute;
-  margin: 10px;
-  width: 98vw; }
+  margin: 1em auto;
+  width: 98vw;
+  background-color: var(__tbg_color); }
 
 blockquote {
   border-left: 5px solid var(--pri-color); }
@@ -747,7 +748,8 @@ p {
   font-weight: 400;
   max-width: 60ch;
   line-height: 1.25em;
-  padding: 0 1rem; }
+  padding: 0 1rem;
+  background-color: var(__tbg_color); }
 
 /* testo indentato */
 p + p {
