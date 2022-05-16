@@ -51,6 +51,7 @@ body {
 	margin: 1em auto;
 	width: 96%;
 	text-rendering: optimizeLegibility;
+	background-color: var(__tbg_color);
 }
 
 body.admin	{
@@ -92,6 +93,7 @@ color: var(--tx-color);
 
 Pre {
 color: var(--tx-color);
+
 line-height: 1.2em;
 margin: 0 0 0.3125em 0;
 }
