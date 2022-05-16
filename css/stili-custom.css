@@ -729,7 +729,7 @@ body {
   margin: 1em auto;
   width: 96%;
   text-rendering: optimizeLegibility;
-  background-color: var(__tbg_color); }
+  background-color: var(__bg_color); }
 
 body.admin {
   height: 100vh;
@@ -737,7 +737,7 @@ body.admin {
   position: absolute;
   margin: 1em auto;
   width: 98vw;
-  background-color: var(__tbg_color); }
+  background-color: var(__bg_color); }
 
 blockquote {
   border-left: 5px solid var(--pri-color); }
@@ -749,7 +749,7 @@ p {
   max-width: 60ch;
   line-height: 1.25em;
   padding: 0 1rem;
-  background-color: var(__tbg_color); }
+  background-color: var(__bg_color); }
 
 /* testo indentato */
 p + p {
