@@ -787,9 +787,6 @@ span.right {
 iframe {
   border: 0; }
 
-div {
-  background-color: var(--bg-color); }
-
 footer {
   background-color: var(--bg-color);
   padding: 10px;
