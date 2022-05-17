@@ -736,7 +736,7 @@ body.admin {
   height: 100vh;
   min-height: calc(100vh - 10%);
   position: absolute;
-  margin: 1em auto;
+  margin: 2em;
   width: 98vw;
   background-color: var(--bg-color);
   border: 1px solid var(--grey-color);
