@@ -726,19 +726,15 @@ html {
 body {
   font-family: 'Muli', sans-serif;
   font-size: 16px !important;
-  margin: 1em auto;
+  margin: 2em;
   width: 96%;
   text-rendering: optimizeLegibility;
   background-color: var(--bg-color); }
 
 body.body,
 body.admin {
-  height: 100vh;
   min-height: calc(100vh - 10%);
   position: absolute;
-  margin: 2em;
-  width: 98vw;
-  background-color: var(--bg-color);
   border: 1px solid var(--grey-color);
   border-radius: 7px; }
 
