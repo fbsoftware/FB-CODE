@@ -799,7 +799,7 @@ footer a, footer a:hover {
   color: var(-fb-primary-color); }
 
 section#corpo {
-  border: 2px solid var(--grey-color); }
+  /*border:2px solid var(--grey-color)*/ }
 
 header {
   float: left;
@@ -823,6 +823,10 @@ article {
   width: 100%;
   color: var(--tx-color);
   background: transparent; }
+
+section::after {
+  clear: both;
+  float: left; }
 
 aside.left {
   float: left;
