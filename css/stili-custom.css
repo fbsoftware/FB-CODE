@@ -731,13 +731,16 @@ body {
   text-rendering: optimizeLegibility;
   background-color: var(--bg-color); }
 
+body#body,
 body.admin {
   height: 100vh;
   min-height: calc(100vh - 10%);
   position: absolute;
   margin: 1em auto;
   width: 98vw;
-  background-color: var(--bg-color); }
+  background-color: var(--bg-color);
+  border: 1px solid var(--grey-color);
+  border-radius: 7px; }
 
 blockquote {
   border-left: 5px solid var(--pri-color); }
