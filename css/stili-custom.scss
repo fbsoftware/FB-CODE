@@ -165,7 +165,7 @@ color: var(--tx-color);
 background: transparent;
 }
 
-section:after 	{
+section::after 	{
 	clear: both;
 	float: left;
 }
