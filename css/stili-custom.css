@@ -824,7 +824,7 @@ article {
   color: var(--tx-color);
   background: transparent; }
 
-section::after {
+section:after {
   clear: both;
   float: left; }
 
@@ -928,5 +928,3 @@ h1.toolbar {
   right: 0px;
   display: none;
   padding: 10px; }
-
-/*# sourceMappingURL=stili-custom.css.map */
