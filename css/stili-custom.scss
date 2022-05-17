@@ -53,7 +53,7 @@ body {
 	text-rendering: optimizeLegibility;
 	background-color: var(--bg-color);
 }
-body#body,
+body.body,
 body.admin	{
 		height:100vh;
 		min-height: calc(100vh - 10%) ;
