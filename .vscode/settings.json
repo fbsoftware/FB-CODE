@@ -1,4 +1,5 @@
 {
-    "editor.accessibilityPageSize": 14,
-    "git.autofetch": true
+    "editor.accessibilityPageSize": 10,
+    "git.autofetch": true,
+    "editor.fontSize": 16
 }
