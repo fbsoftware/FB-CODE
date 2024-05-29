@@ -102,7 +102,7 @@ button:hover {
 /* LINK */
 a {
   text-decoration: none;
-  /*display:block;*/ }
+  display: block; }
 
 /*
 a:link {
