@@ -656,13 +656,13 @@ ul.liv2 > li > a {
 
 .fb-button {
   /* sfondo e colore button  */
-  background-color: #ffc90b;
-  border: 1px solid #ffc90b;
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
   color: #333333; }
 
 .fb-button:hover {
-  /*background-color: #e6e6e6;*/
-  border: 3px solid #ffffff; }
+  background-color: var(--bg-color);
+  border: 3px solid var(--bg-color); }
 
 /* bordi per :hover */
 .fb-accent:hover {
