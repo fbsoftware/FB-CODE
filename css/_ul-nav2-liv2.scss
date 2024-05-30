@@ -67,7 +67,7 @@ ul.liv2 li {
 }
 ul.liv2>li>a {
 	color: var(--white-color);
-	border-right: 0px;
+	border: 1px solid var(--sec-color);
 	font-weight: bold;
 	background: var(--sec-color);
 }
