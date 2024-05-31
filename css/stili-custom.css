@@ -739,7 +739,7 @@ blockquote {
   border-left: 5px solid var(--pri-color); }
 
 p {
-  text-align: justify;
+  text-align: left;
   font-size: 1em;
   font-weight: 400;
   max-width: 60ch;
@@ -827,9 +827,6 @@ aside.left {
 aside.right {
   float: left;
   width: 0%; }
-
-ul, ol {
-  margin-left: 30px; }
 
 .dropdown-menu {
   padding: 0 0;
