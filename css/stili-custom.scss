@@ -55,8 +55,8 @@ body {
 }
 body.body,
 body.admin	{
-		min-height: calc(100vh - 10%) ;
-		position:absolute;
+	min-height: calc(100vh - 10%) ;
+	position:absolute;
 	border: 1px solid var(--grey-color);
 	border-radius: 7px;
 }
