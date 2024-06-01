@@ -13,12 +13,14 @@ table  {
 	width: 100%; 
 	}
 	
-th, td { 
+td { 
 	padding: 0.5em;
-	text-align: center;
+	text-align: left;
 	}
 	
 th     { 
+	padding: 0.5em;
+	text-align: center;
 	background:var(--grey-color); 
 	}
 

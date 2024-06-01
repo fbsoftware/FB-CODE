@@ -171,11 +171,13 @@ table {
   border-collapse: collapse;
   width: 100%; }
 
-th, td {
+td {
   padding: 0.5em;
-  text-align: center; }
+  text-align: left; }
 
 th {
+  padding: 0.5em;
+  text-align: center;
   background: var(--grey-color); }
 
 td.center {
@@ -816,9 +818,15 @@ article {
   color: var(--tx-color);
   background: transparent; }
 
+section::before {
+  clear: both;
+  float: left;
+  padding: 10px; }
+
 section::after {
   clear: both;
-  float: left; }
+  float: left;
+  padding: 10px; }
 
 aside.left {
   float: left;

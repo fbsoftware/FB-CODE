@@ -156,9 +156,17 @@ color: var(--tx-color);
 background: transparent;
 }
 
+section::before 	{
+	clear: both;
+	float: left;
+	padding: 10px;
+}
+
 section::after 	{
 	clear: both;
 	float: left;
+	padding: 10px;
+	
 }
 aside.left {
 float: left;
