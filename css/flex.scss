@@ -1,6 +1,7 @@
 /*   F L E X   container   */
 .f-flex 			{ display: flex;
-						gap:12px;}
+						gap:12px;
+						padding: 10px;}
 						
 .f-flex::before 	{clear:both;}
 
