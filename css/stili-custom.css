@@ -224,7 +224,7 @@ img.login {
 
 img.img-h300 {
   height: 300px !important;
-  max-width: 400px !important; }
+  /*max-width:400px !important;*/ }
 
 img.img-fit {
   width: 100%;
