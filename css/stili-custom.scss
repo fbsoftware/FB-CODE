@@ -1,0 +1,273 @@
+:root	{
+--grey-color:		#cccccc;
+--lightgrey-color: 	#f5f5f5;
+--darkgrey-color:  	#333333;
+--blue-color: 		#0000FF;
+--black-color: 		#000000;
+--white-color: 		#FFFFFF;
+--accent-color: 	#e63946;
+--tx-accent-color: 	#dddddd;
+}
+@import "_accordion";
+@import "_colors";
+@import "_decori";
+@import "_fieldset";
+@import "_flex-table";
+@import "_flex";
+@import "_forms";
+@import "_img";
+@import "_link";
+@import "_popup";
+@import "_tabella";
+@import "_totop";
+@import "_ul-nav2-liv2";
+
+/*   ELEMENTI HTML  */
+*	     {	box-sizing:border-box;
+					-moz-box-sizing:border-box;
+					-webkit-box-sizing:border-box;
+					padding:0;
+					margin:0;}
+
+h1,h2,h3,p	{margin: 0 !important;
+			padding: 0.25em;}
+
+h1	 {	font-size: 2em !important;
+		font-weight:700;}
+
+h2	 {	font-size: 1.5em !important;
+		font-weight:600;}
+
+h3	 {	font-size: 1.25em !important;
+		font-weight:500;}
+
+html { min-height: 100%; }
+
+body {
+	font-family: 'Muli', sans-serif;
+	font-size:16px !important ;
+	margin: 2em;
+	width: 96%;
+	text-rendering: optimizeLegibility;
+	background-color: var(--lightgrey-color)
+}
+body.body,
+body.admin	{
+	min-height: calc(100vh - 10%) ;
+	position:absolute;
+	border: 1px solid var(--grey-color);
+	border-radius: 7px;
+}
+
+blockquote {
+ border-left: 5px solid var(--pri-color);
+}
+
+p {
+text-align: left;
+font-size: 1em;
+font-weight:400;
+max-width:60ch;
+line-height: 1.25em;
+}
+/* testo indentato */
+p + p {
+text-indent: 1.5em;
+}
+/*
+p:last-child	{
+padding-bottom: 1rem;}
+*/
+.p:first-letter {
+float: left;
+padding-right: 0.1em;
+line-height: 1em;
+font-size: 3.5em;
+color: var(--tx-color);
+}
+
+
+Pre {
+color: var(--tx-color);
+
+line-height: 1.2em;
+margin: 0 0 0.3125em 0;
+}
+
+
+hr {
+color: var(--tx-color);
+}
+/* HR senza margini verticali  */
+hr.slim   {
+ margin-bottom: 0px;
+ margin-top: 0px;
+ background-color: var(--grey-color);
+ height: 0.0625em;
+}
+
+span.right {
+float: right;
+}
+
+iframe {
+border: 0;
+}
+
+footer {
+	background-color: var(--bg-color);
+	padding: 10px;
+	border-left:1px solid var(--grey-color);
+	border-right:1px solid var(--grey-color);
+	border-bottom:1px solid var(--grey-color);
+	border-radius:0 0 7px 7px;
+}
+
+footer a, footer a:hover {
+	color: var(-fb-primary-color);
+}
+
+header {
+float: left;
+width: 100%;
+margin: 0;
+font-size: 1.5em;
+font-weight: bolder;
+border-radius: 7px 7px 0 0;
+}
+
+nav {
+float: left;
+width: 100%;
+margin: 0;
+padding: 0;
+background-color: var(--bg-color);
+border-left: 1px solid var(--bg-color);
+border-right: 1px solid var(--bg-color);
+}
+
+article {
+float: left;
+width: 100%;
+color: var(--tx-color);
+background: transparent;
+}
+
+section::before 	{
+	clear: both;
+	float: left;
+	padding: 10px;
+}
+
+section::after 	{
+	clear: both;
+	float: left;
+	padding: 10px;
+	
+}
+aside.left {
+float: left;
+width: 0%;
+}
+
+aside.right {
+float: left;
+width: 0%;
+}
+
+.dropdown-menu {
+	padding: 0 0;
+	border-radius: 0;
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.175);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.175);
+}
+.dropdown-menu > li > a {
+	padding: 7px 10px;
+	border-bottom: 2px solid var(--grey-color);
+}
+
+.fa-glyph-center 	{
+	display:block!important;
+	text-align:center;
+}
+
+/* --------------------------------------------- */
+
+.container {
+  width: auto;
+  padding: 0 15px;
+}
+.space-after  {
+     margin-top: 5px;
+}
+.space-before  {
+     margin-bottom: 5px;
+}
+/*       BORDO           */
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: var(--lightgrey-color);
+}
+
+.row-center {
+	margin: 0 auto;
+}
+
+/* autocomplete scrollabile */
+.ui-autocomplete {
+    max-height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden; /* prevent horizontal scrollbar */
+  }
+
+
+/*  CLASSI  */
+.little {
+font-size: 0.5625em;
+}
+
+.center {
+text-align: center;
+}
+.marchio {
+height: 50px;
+float: left;
+margin:0.25rem;
+}
+.alert    {		/*  alert senza margini  */
+margin-bottom: 0px !important;
+}
+
+/*  T O O L B A R  */
+.toolbar-color{
+	background:var(--pri-color);
+	margin: -2px;
+}
+h1.toolbar	{
+	font-size:1.5em;
+	font-weight: bold;
+	margin-top: 10px;
+	color:var(--tx-pri-color);
+}
+
+/*   ID   */
+#wrapp {
+	height: 300px;
+	width: 400px;
+	overflow: hidden;
+	position: relative;
+}
+#player {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+/* bottone go-to-top */
+#tornasu{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	display: none;
+	padding:10px;
+	}

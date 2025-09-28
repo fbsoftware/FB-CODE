@@ -1,0 +1,73 @@
+/*       UL-NAV2           */
+
+ul.nav2 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 1em;
+	font-weight: bold;
+	width: 90%;
+}
+ul.nav2>li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	color: var(--black-color);
+}
+
+ul.nav2>li>a {
+	color: var(--blue-color);
+	border-right: 0px;
+	font-weight: normal;
+	background: transparent;
+}
+ul.nav2 li a:hover {
+	background: var(--bg-color);
+}
+ul.nav2 a:link,                                                                       
+ul.nav2 a:visited {
+	display: block;
+	padding: 4px 16px;
+	text-decoration: none;
+}
+ul.nav2 a:hover,                                                                          
+ul.nav2 a:focus,                                                                        
+ul.nav2 a:active {
+	background-color: var(--lightgrey-color);
+	color: var(--accent-color);
+	text-decoration: none;
+}
+ul.nav2 li:hover ul.liv2 {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	width: 13%;
+	padding: 0;
+	margin: 0;
+	background: var(--lightgrey-color);
+}
+
+/*       UL-LIV2           */
+
+ul.liv2 {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	width: 13%;
+	padding: 0;
+	margin: 0;
+	background: var(--lightgrey-color);
+}
+ul.liv2 li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+ul.liv2>li>a {
+	color: var(--white-color);
+	border: 1px solid var(--sec-color);
+	font-weight: bold;
+	background: var(--sec-color);
+}

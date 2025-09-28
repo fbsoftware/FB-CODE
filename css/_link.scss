@@ -1,0 +1,25 @@
+/* LINK */
+a {
+text-decoration: none;
+display:block;
+}
+/*
+a:link {
+color: var(--bg-color);
+}
+
+a:active {
+color: var(--bg-color);
+}
+
+a:visited {
+color: var(--bg-color);
+}
+
+a:hover {
+background: var(--grey-color);
+}*/
+a.trasp:hover,
+a.close-button.trasp:hover{
+background: transparent;	
+}

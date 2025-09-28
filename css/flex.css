@@ -1,0 +1,89 @@
+/*   F L E X   container   */
+.f-flex {
+  display: flex;
+  gap: 12px;
+  padding: 10px; }
+
+.f-flex::before {
+  clear: both; }
+
+.f-item {
+  display: flex; }
+
+.fd-row-rev,
+.fd-row {
+  flex-direction: row; }
+
+.fd-column-rev,
+.fd-column {
+  flex-direction: column; }
+
+.jc-center {
+  justify-content: center; }
+
+.jc-end {
+  justify-content: flex-end; }
+
+.jc-start {
+  justify-content: flex-start; }
+
+.jc-between {
+  justify-content: space-between; }
+
+.jc-around {
+  justify-content: space-around; }
+
+.jc-evenly {
+  justify-content: space-evenly; }
+
+.ai-center {
+  align-items: center; }
+
+.ai-end {
+  align-items: flex-end; }
+
+.ai-start {
+  align-items: flex-start; }
+
+.ai-stretch {
+  align-items: stretch; }
+
+.ai-baseline {
+  align-items: baseline; }
+
+.fw {
+  flex-wrap: wrap; }
+
+.fnw {
+  flex-wrap: nowrap; }
+
+/*   F L E X   item   */
+.f-ord1 {
+  order: 1; }
+
+.f-ord2 {
+  order: 2; }
+
+.f-ord3 {
+  order: 3; }
+
+.f-ord4 {
+  order: 4; }
+
+.f-dim1 {
+  flex-grow: 1;
+  flex-basis: 0; }
+
+/* dimensione singola */
+.f-dim2 {
+  flex-grow: 2;
+  flex-basis: 0; }
+
+/* dimensione doppia  */
+.f-dim3 {
+  flex-grow: 3;
+  flex-basis: 0; }
+
+/* dimensione tripla  */
+
+/*# sourceMappingURL=flex.css.map */
