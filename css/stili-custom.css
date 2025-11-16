@@ -687,12 +687,13 @@ ul.liv2 > li > a {
   background: var(--sec-color); }
 
 :root {
-  /* --grey-color:	#cccccc;
-  --lightgrey-color: 	#f5f5f5;
-  --darkgrey-color:  	#333333;
-  --blue-color: 		#0000FF;
-  --black-color: 		#000000;
-  --white-color: 		#FFFFFF;
+  --grey-color: #cccccc;
+  --lightgrey-color: #f5f5f5;
+  --darkgrey-color: #333333;
+  --blue-color: #0000FF;
+  --black-color: #000000;
+  --white-color: #FFFFFF;
+  /* 
   --accent-color: 	#e63946;
   --tx-accent-color: 	#dddddd;
   */
