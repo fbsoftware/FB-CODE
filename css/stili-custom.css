@@ -80,9 +80,9 @@
 
 .fb-accent {
   /* sfondo e colore accent  */
-  background-color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-  color: var(--tx-accent-color); }
+  background-color: var(--button-color);
+  border: 1px solid var(--button-color);
+  color: var(--tx-button-color); }
 
 .fb-button {
   /* sfondo e colore button  */
@@ -224,7 +224,7 @@ fieldset div {
   padding: 1px 0 2px; }
 
 legend {
-  color: var(--accent-color);
+  color: var(--button-color);
   border-bottom: none !important;
   margin-bottom: 0px  !important;
   padding: 0 5px;
@@ -434,7 +434,7 @@ input[type='radio'] {
 input.req {
   color: var(--blue-color);
   background: var(--black-color);
-  border: 2px solid var(--accent-color); }
+  border: 2px solid var(--button-color); }
 
 input.titolo {
   background: inherit;
@@ -559,7 +559,7 @@ a.close-button.trasp:hover {
   padding-right: 0.5rem; }
 
 .close-button:hover {
-  /* color: var(--accent-color); 
+  /* color: var(--button-color); 
    background:transparent !important;*/
   border: none !important; }
 
@@ -652,7 +652,7 @@ ul.nav2 a:hover,
 ul.nav2 a:focus,
 ul.nav2 a:active {
   background-color: var(--lightgrey-color);
-  color: var(--accent-color);
+  color: var(--button-color);
   text-decoration: none; }
 
 ul.nav2 li:hover ul.liv2 {
@@ -694,8 +694,8 @@ ul.liv2 > li > a {
   --black-color: #000000;
   --white-color: #FFFFFF;
   /* 
-  --accent-color: 	#e63946;
-  --tx-accent-color: 	#dddddd;
+  --button-color: 	#e63946;
+  --tx-button-color: 	#dddddd;
   */
   --font-family: 'Montserrat', sans-serif; }
 
