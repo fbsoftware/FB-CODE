@@ -87,7 +87,7 @@
 /* bordi per :hover */
 .fb-accent:hover {
   background-color: var(--tx-button-color);
-  border: 1px solid var(--tx-button-color);
+  border: 1px solid var(--button-color);
   color: var(--pri-color); }
 
 .fb-button {
