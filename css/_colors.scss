@@ -22,6 +22,13 @@
 /* sfondo e colore accent  */
 	background-color: var(--button-color);
 	border: 1px solid var(--button-color);
+	color: var(--sec-color);
+}
+
+/* bordi per :hover */
+.fb-cacent:hover 	{
+	background-color: var(--tx-button-color);
+	border: 1px solid var(--tx-button-color);
 	color: var(--pri-color);
 }
 
@@ -35,13 +42,6 @@
 .fb-button:hover	{
 	background-color: #e6e6e6;
 	border: 1px solid #adadad;
-	color: #333333;
-}
-
-/* bordi per :hover */
-.fb-accent:hover 	{
-	background-color: #ffc90b;
-	border: 1px solid #ffc90b;
 	color: #333333;
 }
 
