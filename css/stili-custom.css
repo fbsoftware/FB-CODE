@@ -85,7 +85,7 @@
   color: var(--sec-color); }
 
 /* bordi per :hover */
-.fb-cacent:hover {
+.fb-accent:hover {
   background-color: var(--tx-button-color);
   border: 1px solid var(--tx-button-color);
   color: var(--pri-color); }
