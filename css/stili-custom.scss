@@ -98,7 +98,7 @@ line-height: 1.2em;
 margin: 0 0 0.3125em 0;
 }
 
-
+/* separatori ----------------------------*/
 hr {
 color: var(--sec-color);
 }
@@ -109,6 +109,38 @@ hr.slim   {
  background-color: var(--grey-color);
  height: 0.0625em;
 }
+/* HR con icona e parametri */
+.hr-with-icon {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: var(--gap);
+    margin: 24px 0;
+}
+
+.hr-with-icon::before,
+.hr-with-icon::after {
+    content: "";
+    flex: 1 1 auto;
+    height: var(--thickness);
+    background: var(--line-color);
+}
+
+.hr-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--icon-bg);
+    padding: 6px;
+    border-radius: 999px;
+    line-height: 1;
+}
+
+.hr-icon i {
+    font-size: var(--icon-size);
+    color: var(--icon-color);
+}
+/* fine separatori -----------------------*/
 
 span.right {
 float: right;
