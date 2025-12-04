@@ -80,7 +80,7 @@
 .fb-upper	{
 	text-transform: uppercase;
 }
-/* Ombra box */
-.fb-shadow {
- box-shadow: 10px 10px 20px rgba(0,0,0,0.25); /* x-offset y-offset blur spread color */
+/* Ombra box se :hover*/
+.fb-shadow:hover {
+ box-shadow: 10px 10px 20px rgba(0,0,0,0.50); /* x-offset y-offset blur spread color */
  }

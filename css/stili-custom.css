@@ -198,9 +198,9 @@
 .fb-upper {
   text-transform: uppercase; }
 
-/* Ombra box */
-.fb-shadow {
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+/* Ombra box se :hover*/
+.fb-shadow:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   /* x-offset y-offset blur spread color */ }
 
 /*   FIELDSET   */
@@ -524,7 +524,7 @@ img.img-fit {
   object-fit: cover; }
 
 /* Ombra immagine */
-.fb-img-shadow {
+.fb-img-shadow:hover {
   filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.5)); }
 
 /* LINK */

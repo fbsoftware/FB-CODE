@@ -40,6 +40,6 @@ img.img-fit	{
   object-fit: cover;
 }
 /* Ombra immagine */
-.fb-img-shadow {
+.fb-img-shadow:hover {
   filter: drop-shadow(10px 10px 12px rgba(0,0,0,0.50));
 }
