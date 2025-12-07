@@ -579,7 +579,7 @@ a.close-button.trasp:hover {
   right: 1em;
   font-size: 2em;
   text-align: center;
-  color: var(--white-color);
+  color: var(--pri-color);
   text-decoration: none;
   padding-right: 0.5rem; }
 
