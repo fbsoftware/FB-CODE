@@ -568,7 +568,7 @@ a.close-button.trasp:hover {
   margin: 0 auto;
   padding: 2em;
   margin-top: 20px;
-  box-shadow: 0px 2px 6px black;
+  box-shadow: 0px 2px 6px #05050a;
   border-radius: 3px;
   position: relative; }
 
