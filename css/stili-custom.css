@@ -697,7 +697,8 @@ ul.liv2 {
   width: 20%;
   padding: 0;
   margin: 0;
-  background: var(--lightgrey-color); }
+  background: var(--lightgrey-color);
+  font-weight: normal; }
 
 ul.liv2 li {
   list-style: none;
